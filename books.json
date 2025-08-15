@@ -317,12 +317,7 @@
     "title": "Sufficiently Advanced Magic (Arcane Ascension Book 1)",
     "series": "Arcane Ascension",
     "series_index": 1.0,
-    "cover_path": "covers/1107.jpg",
-    "cover_color": [
-      108,
-      113,
-      120
-    ]
+    "cover_path": "covers/1107.jpg"
   },
   {
     "id": 481,
@@ -531,6 +526,22 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/406.jpg"
+  },
+  {
+    "id": 939,
+    "author": "Arkady Strugatsky, Boris Strugatsky",
+    "title": "Roadside Picnic",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/939.jpg"
+  },
+  {
+    "id": 964,
+    "author": "Arkady Strugatsky, Boris Strugatsky",
+    "title": "Roadside Picnic (Rediscovered Classics)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/964.jpg"
   },
   {
     "id": 974,
@@ -795,14 +806,6 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/310.jpg"
-  },
-  {
-    "id": 939,
-    "author": "Boris Arkady, Strugatsky",
-    "title": "Roadside Picnic",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/939.jpg"
   },
   {
     "id": 432,
@@ -1674,12 +1677,7 @@
     "title": "Hero In The Shadows",
     "series": "The Drenai Saga",
     "series_index": 9.0,
-    "cover_path": "covers/1117.jpg",
-    "cover_color": [
-      131,
-      143,
-      132
-    ]
+    "cover_path": "covers/1117.jpg"
   },
   {
     "id": 1118,
@@ -1687,12 +1685,7 @@
     "title": "In the Realm of the Wolf",
     "series": "The Drenai Saga",
     "series_index": 5.0,
-    "cover_path": "covers/1118.jpg",
-    "cover_color": [
-      107,
-      80,
-      71
-    ]
+    "cover_path": "covers/1118.jpg"
   },
   {
     "id": 1113,
@@ -1700,12 +1693,7 @@
     "title": "Legend",
     "series": "The Drenai Saga",
     "series_index": 1.0,
-    "cover_path": "covers/1113.jpg",
-    "cover_color": [
-      117,
-      106,
-      115
-    ]
+    "cover_path": "covers/1113.jpg"
   },
   {
     "id": 1109,
@@ -1713,12 +1701,7 @@
     "title": "Quest For Lost Heroes",
     "series": "The Drenai Saga",
     "series_index": 4.0,
-    "cover_path": "covers/1109.jpg",
-    "cover_color": [
-      126,
-      97,
-      95
-    ]
+    "cover_path": "covers/1109.jpg"
   },
   {
     "id": 1105,
@@ -1726,12 +1709,7 @@
     "title": "The First Chronicles of Druss the Legend",
     "series": "The Drenai Saga",
     "series_index": 6.0,
-    "cover_path": "covers/1105.jpg",
-    "cover_color": [
-      116,
-      89,
-      67
-    ]
+    "cover_path": "covers/1105.jpg"
   },
   {
     "id": 1104,
@@ -1739,12 +1717,7 @@
     "title": "The King Beyond The Gate",
     "series": "The Drenai Saga",
     "series_index": 2.0,
-    "cover_path": "covers/1104.jpg",
-    "cover_color": [
-      114,
-      103,
-      85
-    ]
+    "cover_path": "covers/1104.jpg"
   },
   {
     "id": 1102,
@@ -1752,12 +1725,7 @@
     "title": "The Legend Of Deathwalker",
     "series": "The Drenai Saga",
     "series_index": 7.0,
-    "cover_path": "covers/1102.jpg",
-    "cover_color": [
-      120,
-      117,
-      128
-    ]
+    "cover_path": "covers/1102.jpg"
   },
   {
     "id": 1101,
@@ -1765,12 +1733,7 @@
     "title": "The Swords of Night and Day",
     "series": "The Drenai Saga",
     "series_index": 11.0,
-    "cover_path": "covers/1101.jpg",
-    "cover_color": [
-      101,
-      82,
-      66
-    ]
+    "cover_path": "covers/1101.jpg"
   },
   {
     "id": 1119,
@@ -1778,12 +1741,7 @@
     "title": "Waylander",
     "series": "The Drenai Saga",
     "series_index": 3.0,
-    "cover_path": "covers/1119.jpg",
-    "cover_color": [
-      79,
-      96,
-      92
-    ]
+    "cover_path": "covers/1119.jpg"
   },
   {
     "id": 1098,
@@ -1791,12 +1749,7 @@
     "title": "White Wolf",
     "series": "The Drenai Saga",
     "series_index": 10.0,
-    "cover_path": "covers/1098.jpg",
-    "cover_color": [
-      156,
-      148,
-      151
-    ]
+    "cover_path": "covers/1098.jpg"
   },
   {
     "id": 1120,
@@ -1804,12 +1757,7 @@
     "title": "Winter Warriors",
     "series": "The Drenai Saga",
     "series_index": 8.0,
-    "cover_path": "covers/1120.jpg",
-    "cover_color": [
-      101,
-      65,
-      55
-    ]
+    "cover_path": "covers/1120.jpg"
   },
   {
     "id": 697,
@@ -5153,12 +5101,7 @@
     "title": "Bound - A Book of the Ancestor Short Story: Short Story",
     "series": "Book of the Ancestor",
     "series_index": 2.5,
-    "cover_path": "covers/1097.jpg",
-    "cover_color": [
-      240,
-      238,
-      232
-    ]
+    "cover_path": "covers/1097.jpg"
   },
   {
     "id": 1103,
@@ -5166,12 +5109,7 @@
     "title": "Grey Sister",
     "series": "Book of the Ancestor",
     "series_index": 2.0,
-    "cover_path": "covers/1103.jpg",
-    "cover_color": [
-      134,
-      76,
-      67
-    ]
+    "cover_path": "covers/1103.jpg"
   },
   {
     "id": 1116,
@@ -5179,12 +5117,7 @@
     "title": "Holy Sister",
     "series": "Book of the Ancestor",
     "series_index": 3.0,
-    "cover_path": "covers/1116.jpg",
-    "cover_color": [
-      115,
-      114,
-      134
-    ]
+    "cover_path": "covers/1116.jpg"
   },
   {
     "id": 1110,
@@ -5192,12 +5125,7 @@
     "title": "Red Sister",
     "series": "Book of the Ancestor",
     "series_index": 1.0,
-    "cover_path": "covers/1110.jpg",
-    "cover_color": [
-      194,
-      191,
-      202
-    ]
+    "cover_path": "covers/1110.jpg"
   },
   {
     "id": 1121,
@@ -5205,12 +5133,7 @@
     "title": "Emperor of Thorns (The Broken Empire, Book 3)",
     "series": "Broken Empire",
     "series_index": 3.0,
-    "cover_path": "covers/1121.jpg",
-    "cover_color": [
-      150,
-      146,
-      147
-    ]
+    "cover_path": "covers/1121.jpg"
   },
   {
     "id": 1115,
@@ -5218,12 +5141,7 @@
     "title": "King of Thorns",
     "series": "Broken Empire",
     "series_index": 2.0,
-    "cover_path": "covers/1115.jpg",
-    "cover_color": [
-      117,
-      119,
-      119
-    ]
+    "cover_path": "covers/1115.jpg"
   },
   {
     "id": 1099,
@@ -5231,12 +5149,7 @@
     "title": "Prince of Thorns",
     "series": "Broken Empire",
     "series_index": 1.0,
-    "cover_path": "covers/1099.jpg",
-    "cover_color": [
-      175,
-      176,
-      176
-    ]
+    "cover_path": "covers/1099.jpg"
   },
   {
     "id": 1108,
@@ -5244,12 +5157,7 @@
     "title": "Road Brothers",
     "series": "Broken Empire",
     "series_index": 3.5,
-    "cover_path": "covers/1108.jpg",
-    "cover_color": [
-      103,
-      88,
-      69
-    ]
+    "cover_path": "covers/1108.jpg"
   },
   {
     "id": 1112,
@@ -5257,12 +5165,7 @@
     "title": "Sleeping Beauty",
     "series": "Broken Empire",
     "series_index": 2.5,
-    "cover_path": "covers/1112.jpg",
-    "cover_color": [
-      203,
-      202,
-      203
-    ]
+    "cover_path": "covers/1112.jpg"
   },
   {
     "id": 1111,
@@ -5270,12 +5173,7 @@
     "title": "Missing Pages: A Collection of Short Stories Associated With the Library Trilogy",
     "series": "The Library Trilogy",
     "series_index": 1.4,
-    "cover_path": "covers/1111.jpg",
-    "cover_color": [
-      64,
-      59,
-      25
-    ]
+    "cover_path": "covers/1111.jpg"
   },
   {
     "id": 1100,
@@ -5283,12 +5181,7 @@
     "title": "The Book That Broke the World",
     "series": "The Library Trilogy",
     "series_index": 2.0,
-    "cover_path": "covers/1100.jpg",
-    "cover_color": [
-      49,
-      82,
-      91
-    ]
+    "cover_path": "covers/1100.jpg"
   },
   {
     "id": 1106,
@@ -5296,12 +5189,7 @@
     "title": "The Book That Held Her Heart",
     "series": "The Library Trilogy",
     "series_index": 3.0,
-    "cover_path": "covers/1106.jpg",
-    "cover_color": [
-      137,
-      61,
-      76
-    ]
+    "cover_path": "covers/1106.jpg"
   },
   {
     "id": 1114,
@@ -5309,12 +5197,7 @@
     "title": "The Library Trilogy 1 - The Book That Wouldn't Burn",
     "series": "The Library Trilogy",
     "series_index": 1.0,
-    "cover_path": "covers/1114.jpg",
-    "cover_color": [
-      114,
-      86,
-      63
-    ]
+    "cover_path": "covers/1114.jpg"
   },
   {
     "id": 627,
@@ -6725,14 +6608,6 @@
     "cover_path": "covers/902.jpg"
   },
   {
-    "id": 92,
-    "author": "Robert O Becker",
-    "title": "The body electric : electromagnetism and the foundation of life",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/92.jpg"
-  },
-  {
     "id": 133,
     "author": "Robert Peterson",
     "title": "Out-of-Body Experiences: How to Have Them and What to Expect",
@@ -7691,14 +7566,6 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/48.jpg"
-  },
-  {
-    "id": 964,
-    "author": "Strugatsky| Arkady, Strugatsky| Boris",
-    "title": "Roadside Picnic (Rediscovered Classics)",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/964.jpg"
   },
   {
     "id": 447,

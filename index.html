@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Calibre Library</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <div id="top-panel">
     <div id="alphabet-jump"></div>
-    <label for="size-slider">Cover size:</label>
-    <input type="range" id="size-slider" min="100" max="400" value="175"/>
-    <button id="toggle-view">Flat View</button>
-    <button id="sort-color" class="hidden">Sort by Color</button>
+    <div class="control-row">
+        <label for="size-slider">Cover size:</label>
+        <input type="range" id="size-slider" min="100" max="400" value="175"/>
+        <button id="toggle-view">Flat View</button>
+        <button id="sort-color" class="hidden">Sort by Color</button>
+    </div>
     <label for="search"></label><input type="text" id="search" placeholder="Search books..." />
 </div>
-
 
 <div id="library"></div>
 

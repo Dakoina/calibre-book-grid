@@ -408,6 +408,19 @@
     "cover_path": "covers/285.jpg"
   },
   {
+    "id": 1153,
+    "author": "Angeline Boulley",
+    "title": "Firekeeper's Daughter",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1153.jpg",
+    "cover_color": [
+      163,
+      140,
+      119
+    ]
+  },
+  {
     "id": 651,
     "author": "Ann Liang",
     "title": "A Song to Drown Rivers",
@@ -1096,6 +1109,19 @@
     "cover_path": "covers/492.jpg"
   },
   {
+    "id": 1122,
+    "author": "Carreyrou| John [Carreyrou| John], chenjin5.com",
+    "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1122.jpg",
+    "cover_color": [
+      44,
+      10,
+      11
+    ]
+  },
+  {
     "id": 770,
     "author": "Casey McQuiston",
     "title": "De laatste halte",
@@ -1192,6 +1218,45 @@
     "cover_path": "covers/553.jpg"
   },
   {
+    "id": 1154,
+    "author": "Catherine Doyle",
+    "title": "Cursed Crowns",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1154.jpg",
+    "cover_color": [
+      106,
+      84,
+      106
+    ]
+  },
+  {
+    "id": 1155,
+    "author": "Catherine Doyle",
+    "title": "Twin Crowns",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1155.jpg",
+    "cover_color": [
+      44,
+      50,
+      46
+    ]
+  },
+  {
+    "id": 1156,
+    "author": "Catherine Doyle, Katherine Webber",
+    "title": "Burning Crowns: The third book in this bestselling royal YA fantasy romance series. Tik Tok made me buy it! (Twin Crowns, Book 3)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1156.jpg",
+    "cover_color": [
+      129,
+      68,
+      49
+    ]
+  },
+  {
     "id": 495,
     "author": "Charissa Weaks",
     "title": "The Witch Collector",
@@ -1270,6 +1335,58 @@
     "series": "Boys of Tommen",
     "series_index": 2.0,
     "cover_path": "covers/425.jpg"
+  },
+  {
+    "id": 1127,
+    "author": "Chloe Walsh",
+    "title": "Redeeming 6: Boys of Tommen #4",
+    "series": "Boys of Tommen",
+    "series_index": 4.0,
+    "cover_path": "covers/1127.jpg",
+    "cover_color": [
+      73,
+      50,
+      73
+    ]
+  },
+  {
+    "id": 1126,
+    "author": "Chloe Walsh",
+    "title": "Releasing 10 (The Boys of Tommen)",
+    "series": "Boys of Tommen",
+    "series_index": 6.0,
+    "cover_path": "covers/1126.jpg",
+    "cover_color": [
+      92,
+      75,
+      84
+    ]
+  },
+  {
+    "id": 1125,
+    "author": "Chloe Walsh",
+    "title": "Saving 6: Boys of Tommen",
+    "series": "Boys of Tommen",
+    "series_index": 3.0,
+    "cover_path": "covers/1125.jpg",
+    "cover_color": [
+      81,
+      65,
+      71
+    ]
+  },
+  {
+    "id": 1124,
+    "author": "Chloe Walsh",
+    "title": "Taming 7",
+    "series": "Boys of Tommen",
+    "series_index": 5.0,
+    "cover_path": "covers/1124.jpg",
+    "cover_color": [
+      21,
+      61,
+      72
+    ]
   },
   {
     "id": 898,
@@ -1654,6 +1771,19 @@
     "series": "The Bridge Kingdom",
     "series_index": 5.0,
     "cover_path": "covers/879.jpg"
+  },
+  {
+    "id": 1161,
+    "author": "Daria Lavelle",
+    "title": "Aftertaste: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1161.jpg",
+    "cover_color": [
+      27,
+      51,
+      56
+    ]
   },
   {
     "id": 155,
@@ -2504,6 +2634,19 @@
     "cover_path": "covers/906.jpg"
   },
   {
+    "id": 1147,
+    "author": "Freida McFadden",
+    "title": "Never Lie",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1147.jpg",
+    "cover_color": [
+      130,
+      117,
+      116
+    ]
+  },
+  {
     "id": 744,
     "author": "Freida McFadden",
     "title": "The Boyfriend: A Psychological Thriller",
@@ -2582,6 +2725,19 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/658.jpg"
+  },
+  {
+    "id": 1123,
+    "author": "Gabrielle Zevin",
+    "title": "The Storied Life of A. J. Fikry",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1123.jpg",
+    "cover_color": [
+      221,
+      196,
+      184
+    ]
   },
   {
     "id": 431,
@@ -2912,6 +3068,19 @@
     "cover_path": "covers/728.jpg"
   },
   {
+    "id": 1162,
+    "author": "Haruki Murakami",
+    "title": "After Dark",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1162.jpg",
+    "cover_color": [
+      133,
+      87,
+      81
+    ]
+  },
+  {
     "id": 1021,
     "author": "Haruki Murakami",
     "title": "Dance Dance Dance",
@@ -3000,6 +3169,19 @@
     "cover_path": "covers/332.jpg"
   },
   {
+    "id": 1134,
+    "author": "Helen Hoang",
+    "title": "The Heart Principle",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1134.jpg",
+    "cover_color": [
+      213,
+      66,
+      90
+    ]
+  },
+  {
     "id": 823,
     "author": "Helen Hoang",
     "title": "The Kiss Quotient",
@@ -3014,6 +3196,32 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/754.jpg"
+  },
+  {
+    "id": 1168,
+    "author": "Het negende huis -- Leigh Bardugo -- Alex Stern| 1| 2020 -- Boekerij; Meulenhoff Boekerij B V -- 9789022590652 converted.kepub",
+    "title": "Het negende huis",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1168.jpg",
+    "cover_color": [
+      71,
+      51,
+      42
+    ]
+  },
+  {
+    "id": 1139,
+    "author": "Hibbert| Talia",
+    "title": "Take a Hint, Dani Brown",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1139.jpg",
+    "cover_color": [
+      216,
+      204,
+      103
+    ]
   },
   {
     "id": 243,
@@ -3344,6 +3552,84 @@
     "cover_path": "covers/1059.jpg"
   },
   {
+    "id": 1144,
+    "author": "Jay Kristoff",
+    "title": "3 Duistere Dageraad",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1144.jpg",
+    "cover_color": [
+      197,
+      187,
+      157
+    ]
+  },
+  {
+    "id": 1158,
+    "author": "Jay Kristoff",
+    "title": "Darkdawn--Book Three of the Nevernight Chronicle",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1158.jpg",
+    "cover_color": [
+      86,
+      85,
+      87
+    ]
+  },
+  {
+    "id": 1151,
+    "author": "Jay Kristoff",
+    "title": "Godsgrave",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1151.jpg",
+    "cover_color": [
+      136,
+      122,
+      120
+    ]
+  },
+  {
+    "id": 1146,
+    "author": "Jay Kristoff",
+    "title": "Nimmernacht",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1146.jpg",
+    "cover_color": [
+      174,
+      147,
+      145
+    ]
+  },
+  {
+    "id": 1145,
+    "author": "Jay Kristoff",
+    "title": "Godsgraf",
+    "series": "The Nevernight Chronicle",
+    "series_index": 2.0,
+    "cover_path": "covers/1145.jpg",
+    "cover_color": [
+      119,
+      146,
+      164
+    ]
+  },
+  {
+    "id": 1138,
+    "author": "Jay Kristoff",
+    "title": "The Nevernight Chronicle [01] Nevernight",
+    "series": "The Nevernight Chronicle",
+    "series_index": 1.0,
+    "cover_path": "covers/1138.jpg",
+    "cover_color": [
+      143,
+      138,
+      136
+    ]
+  },
+  {
     "id": 602,
     "author": "Jeanne Siaud-Facchin",
     "title": "Te intelligent om gelukkig te zijn",
@@ -3406,6 +3692,123 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/783.jpg"
+  },
+  {
+    "id": 1131,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Kingdom of Flesh and Fire: A Blood and Ash Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1131.jpg",
+    "cover_color": [
+      190,
+      184,
+      175
+    ]
+  },
+  {
+    "id": 1165,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Light in the Flame",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1165.jpg",
+    "cover_color": [
+      56,
+      53,
+      49
+    ]
+  },
+  {
+    "id": 1164,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Shadow in the Ember",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1164.jpg",
+    "cover_color": [
+      92,
+      71,
+      69
+    ]
+  },
+  {
+    "id": 1141,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Soul of Ash and Blood",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1141.jpg",
+    "cover_color": [
+      94,
+      69,
+      57
+    ]
+  },
+  {
+    "id": 1130,
+    "author": "Jennifer L. Armentrout",
+    "title": "A_Fire_in_the_Flesh_Kobo",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1130.jpg",
+    "cover_color": [
+      64,
+      50,
+      49
+    ]
+  },
+  {
+    "id": 1160,
+    "author": "Jennifer L. Armentrout",
+    "title": "Born of Blood and Ash",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1160.jpg",
+    "cover_color": [
+      112,
+      103,
+      92
+    ]
+  },
+  {
+    "id": 1152,
+    "author": "Jennifer L. Armentrout",
+    "title": "From Blood and Ash",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1152.jpg",
+    "cover_color": [
+      50,
+      38,
+      37
+    ]
+  },
+  {
+    "id": 1166,
+    "author": "Jennifer L. Armentrout",
+    "title": "The Crown of Gilded Bones (Blood And Ash Series Book 3)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1166.jpg",
+    "cover_color": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "id": 1137,
+    "author": "Jennifer L. Armentrout",
+    "title": "The War of Two Queens Google",
+    "series": "Blood and Ash",
+    "series_index": 21.0,
+    "cover_path": "covers/1137.jpg",
+    "cover_color": [
+      66,
+      55,
+      48
+    ]
   },
   {
     "id": 340,
@@ -4048,6 +4451,19 @@
     "cover_path": "covers/743.jpg"
   },
   {
+    "id": 1142,
+    "author": "Kate Stayman-London",
+    "title": "One To Watch",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1142.jpg",
+    "cover_color": [
+      152,
+      155,
+      186
+    ]
+  },
+  {
     "id": 530,
     "author": "Katherine Addison",
     "title": "The Goblin Emperor 1 - The Goblin Emperor",
@@ -4448,6 +4864,19 @@
     "cover_path": "covers/899.jpg"
   },
   {
+    "id": 1169,
+    "author": "Leigh Bardugo",
+    "title": "Duivelsvlucht",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1169.jpg",
+    "cover_color": [
+      41,
+      34,
+      28
+    ]
+  },
+  {
     "id": 694,
     "author": "Leigh Bardugo",
     "title": "Het negende huis",
@@ -4566,6 +4995,19 @@
     "series": "Six of Crows",
     "series_index": 2.0,
     "cover_path": "covers/234.jpg"
+  },
+  {
+    "id": 1149,
+    "author": "Leigh Bardugo",
+    "title": "List & Leugens",
+    "series": "Six of Crows",
+    "series_index": 1.0,
+    "cover_path": "covers/1149.jpg",
+    "cover_color": [
+      81,
+      84,
+      89
+    ]
   },
   {
     "id": 245,
@@ -4784,6 +5226,19 @@
     "cover_path": "covers/643.jpg"
   },
   {
+    "id": 1128,
+    "author": "Lori Gottlieb",
+    "title": "Maybe You Should Talk to Someone",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1128.jpg",
+    "cover_color": [
+      168,
+      174,
+      152
+    ]
+  },
+  {
     "id": 311,
     "author": "Louis Sachar",
     "title": "Holes",
@@ -4968,6 +5423,45 @@
     "cover_path": "covers/288.jpg"
   },
   {
+    "id": 1135,
+    "author": "Lucy Score",
+    "title": "Things We Hide from the Light (Knockemout Book 2)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1135.jpg",
+    "cover_color": [
+      191,
+      191,
+      191
+    ]
+  },
+  {
+    "id": 1132,
+    "author": "Lucy Score",
+    "title": "Things we Left behind",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1132.jpg",
+    "cover_color": [
+      213,
+      167,
+      203
+    ]
+  },
+  {
+    "id": 1133,
+    "author": "Lucy Score",
+    "title": "Things We Never Got Over",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1133.jpg",
+    "cover_color": [
+      152,
+      185,
+      205
+    ]
+  },
+  {
     "id": 147,
     "author": "Luis Elizondo",
     "title": "Imminent",
@@ -5062,6 +5556,19 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/560.jpg"
+  },
+  {
+    "id": 1150,
+    "author": "Malinda Lo",
+    "title": "Last Night at the Telegraph Club",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1150.jpg",
+    "cover_color": [
+      64,
+      64,
+      60
+    ]
   },
   {
     "id": 814,
@@ -5566,6 +6073,19 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/52.jpg"
+  },
+  {
+    "id": 1157,
+    "author": "Michelle Zauner;",
+    "title": "Crying in H Mart",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1157.jpg",
+    "cover_color": [
+      232,
+      43,
+      45
+    ]
   },
   {
     "id": 767,
@@ -6880,6 +7400,19 @@
     "cover_path": "covers/751.jpg"
   },
   {
+    "id": 1136,
+    "author": "Sally Thorne",
+    "title": "The Hating Game",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1136.jpg",
+    "cover_color": [
+      101,
+      184,
+      173
+    ]
+  },
+  {
     "id": 429,
     "author": "Samantha Harvey",
     "title": "Orbital",
@@ -7688,6 +8221,19 @@
     "cover_path": "covers/182.jpg"
   },
   {
+    "id": 1143,
+    "author": "T Kingfisher",
+    "title": "Nine Goblins",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1143.jpg",
+    "cover_color": [
+      170,
+      157,
+      136
+    ]
+  },
+  {
     "id": 600,
     "author": "TJ Klune",
     "title": "The Bones Beneath My Skin",
@@ -7792,12 +8338,38 @@
     "cover_path": "covers/88.jpg"
   },
   {
+    "id": 1163,
+    "author": "Talia Hibbert",
+    "title": "Act Your Age, Eve Brown",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1163.jpg",
+    "cover_color": [
+      132,
+      199,
+      210
+    ]
+  },
+  {
     "id": 795,
     "author": "Talia Hibbert",
     "title": "Get A Life, Chloe Brown",
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/795.jpg"
+  },
+  {
+    "id": 1129,
+    "author": "Tara Westover",
+    "title": "Educated",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1129.jpg",
+    "cover_color": [
+      255,
+      255,
+      255
+    ]
   },
   {
     "id": 772,
@@ -7854,6 +8426,32 @@
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/762.jpg"
+  },
+  {
+    "id": 1148,
+    "author": "Taylor Jenkins Reid",
+    "title": "Maybe in Another Life",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1148.jpg",
+    "cover_color": [
+      221,
+      155,
+      96
+    ]
+  },
+  {
+    "id": 1167,
+    "author": "Taylor Jenkins Reid",
+    "title": "Maybe in Another Life",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1167.jpg",
+    "cover_color": [
+      142,
+      185,
+      180
+    ]
   },
   {
     "id": 984,
@@ -8304,12 +8902,38 @@
     "cover_path": "covers/888.jpg"
   },
   {
+    "id": 1140,
+    "author": "Tia Williams",
+    "title": "Seven Days in June",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1140.jpg",
+    "cover_color": [
+      104,
+      91,
+      101
+    ]
+  },
+  {
     "id": 729,
     "author": "Tia Williams",
     "title": "Zeven dagen samen",
     "series": "",
     "series_index": 1.0,
     "cover_path": "covers/729.jpg"
+  },
+  {
+    "id": 1159,
+    "author": "Tiffany McDaniel",
+    "title": "Betty: A novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1159.jpg",
+    "cover_color": [
+      91,
+      95,
+      135
+    ]
   },
   {
     "id": 124,

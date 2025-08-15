@@ -3,7 +3,13 @@ body {
   color: #f0f0f0;
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding-top: 70px;
+  padding-top: 120px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 140px;
+  }
 }
 
 #top-panel {
@@ -18,6 +24,35 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #top-panel {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  #top-panel > * {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #alphabet-jump {
+    order: -1;
+    margin-bottom: 5px;
+  }
+
+  .control-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+  }
 }
 
 #alphabet-jump button {
@@ -28,6 +63,15 @@ body {
   padding: 6px 8px;
   border-radius: 4px;
   cursor: pointer;
+  touch-action: manipulation;
+}
+
+@media (max-width: 768px) {
+  #alphabet-jump button {
+    padding: 8px 10px;
+    font-size: 14px;
+    margin: 1px;
+  }
 }
 
 #alphabet-jump button:hover {
@@ -38,6 +82,12 @@ body {
   margin: 30px 20px;
 }
 
+@media (max-width: 768px) {
+  .author-section {
+    margin: 20px 10px;
+  }
+}
+
 .author-section h2 {
   border-bottom: 1px solid #333;
   padding-bottom: 5px;
@@ -45,9 +95,22 @@ body {
   font-size: 1.5em;
 }
 
+@media (max-width: 768px) {
+  .author-section h2 {
+    font-size: 1.3em;
+  }
+}
+
 .series-section {
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .series-section {
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
 }
 
 .series-section h3 {
@@ -62,6 +125,13 @@ body {
   gap: 12px;
 }
 
+@media (max-width: 768px) {
+  .book-grid {
+    gap: 8px;
+    justify-content: flex-start;
+  }
+}
+
 .book-cover {
   width: var(--cover-size, 175px);
   transition: transform 0.2s ease;
@@ -69,6 +139,13 @@ body {
   position: relative;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  touch-action: manipulation;
+}
+
+@media (max-width: 768px) {
+  .book-cover {
+    width: var(--cover-size, 140px);
+  }
 }
 
 .book-cover:hover {
@@ -106,6 +183,14 @@ body {
   margin: 20px;
 }
 
+@media (max-width: 768px) {
+  .flat-view .book-grid-flat {
+    gap: 8px;
+    margin: 10px;
+    justify-content: flex-start;
+  }
+}
+
 #search {
   background: #222;
   border: 1px solid #444;
@@ -115,4 +200,51 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  #search {
+    min-width: 150px;
+    width: 100%;
+    max-width: 250px;
+    padding: 8px 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* Additional mobile optimizations */
+@media (max-width: 768px) {
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    touch-action: manipulation;
+    min-height: 44px; /* Apple's recommended touch target size */
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  #size-slider {
+    width: 120px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .book-cover {
+    width: var(--cover-size, 120px);
+  }
+
+  .author-section {
+    margin: 15px 5px;
+  }
+
+  .series-section {
+    margin-left: 5px;
+  }
+
+  #top-panel {
+    padding: 5px;
+  }
 }

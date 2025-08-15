@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Calibre Library</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="top-panel">
+    <div id="alphabet-jump"></div>
+    <label for="size-slider">Cover size:</label>
+    <input type="range" id="size-slider" min="100" max="400" value="175"/>
+    <button id="toggle-view">Flat View</button>
+    <button id="sort-color" class="hidden">Sort by Color</button>
+    <label for="search"></label><input type="text" id="search" placeholder="Search books..." />
+</div>
+
+
+<div id="library"></div>
+
+<div id="tooltip" class="hidden"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

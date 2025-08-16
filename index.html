@@ -10,8 +10,14 @@
 <div id="top-panel">
     <div id="alphabet-jump"></div>
     <div class="control-row">
-        <label for="size-slider">Cover size:</label>
-        <input type="range" id="size-slider" min="100" max="400" value="175"/>
+        <div class="size-controls">
+            <label class="size-label">Cover size:</label>
+            <input type="range" id="size-slider" min="100" max="400" value="175" class="desktop-only"/>
+            <div class="mobile-size-controls mobile-only">
+                <button id="size-minus" type="button">−</button>
+                <button id="size-plus" type="button">+</button>
+            </div>
+        </div>
         <button id="toggle-view">Flat View</button>
         <button id="sort-color" class="hidden">Sort by Color</button>
     </div>

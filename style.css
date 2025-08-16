@@ -3,12 +3,12 @@ body {
   color: #f0f0f0;
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 @media (max-width: 768px) {
   body {
-    padding-top: 140px;
+    padding-top: 80px;
   }
 }
 
@@ -41,8 +41,7 @@ body {
   }
 
   #alphabet-jump {
-    order: -1;
-    margin-bottom: 5px;
+    display: none; /* Hide alphabet navigation on mobile */
   }
 
   .control-row {
@@ -212,7 +211,67 @@ body {
   }
 }
 
-/* Additional mobile optimizations */
+/* Size control styling */
+.size-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: flex;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .size-controls {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .size-label {
+    font-size: 12px;
+  }
+}
+
+.mobile-size-controls {
+  display: flex;
+  gap: 4px;
+}
+
+.mobile-size-controls button {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-size-controls button:hover {
+  background: #555;
+}
+
+.mobile-size-controls button:active {
+  background: #666;
+}
 @media (max-width: 768px) {
   button {
     padding: 8px 12px;

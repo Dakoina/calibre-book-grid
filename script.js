@@ -2,6 +2,7 @@ let booksByAuthor = {};
 let alphabetSet = new Set();
 let flatGridOriginalOrder = [];
 let isColorSorted = false;
+let currentCoverSize = 175; // Track current cover size
 
 
 fetch('books.json')
@@ -21,6 +22,7 @@ fetch('books.json')
         renderAlphabetNav([...alphabetSet].sort());
         renderLibrary(booksByAuthor);
         setupSlider();
+        setupMobileSizeControls();
 
         document.getElementById('search').addEventListener('input', e => {
             filterBooks(e.target.value.trim().toLowerCase());
@@ -58,7 +60,6 @@ function createBookImage(book) {
         img.dataset.hue = h;
     }
 
-
     return img;
 }
 
@@ -89,7 +90,6 @@ function rgbToHsl(r, g, b) {
     return [Math.round(h * 360), s, l]; // return hue, saturation, lightness
 }
 
-
 function renderLibrary(data) {
     const container = document.getElementById('library');
     container.innerHTML = '';
@@ -100,7 +100,6 @@ function renderLibrary(data) {
     flatGrid.id = 'flat-grid';
 
     flatGridOriginalOrder = [];  // reset original order list
-
 
     Object.keys(data).sort().forEach(author => {
         const authorSection = document.createElement('section');
@@ -137,7 +136,6 @@ function renderLibrary(data) {
                     const clone = image.cloneNode(true);
                     flatGrid.appendChild(clone);
                     flatGridOriginalOrder.push(clone);
-
                 });
 
             seriesSection.appendChild(grid);
@@ -179,10 +177,29 @@ function hideTooltip() {
 
 function setupSlider() {
     const slider = document.getElementById('size-slider');
-    document.documentElement.style.setProperty('--cover-size', `${slider.value}px`);
+    currentCoverSize = parseInt(slider.value);
+    document.documentElement.style.setProperty('--cover-size', `${currentCoverSize}px`);
     slider.addEventListener('input', () => {
-        document.documentElement.style.setProperty('--cover-size', `${slider.value}px`);
+        currentCoverSize = parseInt(slider.value);
+        document.documentElement.style.setProperty('--cover-size', `${currentCoverSize}px`);
     });
+}
+
+function setupMobileSizeControls() {
+    const plusBtn = document.getElementById('size-plus');
+    const minusBtn = document.getElementById('size-minus');
+
+    if (plusBtn && minusBtn) {
+        plusBtn.addEventListener('click', () => {
+            currentCoverSize = Math.min(currentCoverSize + 20, 400);
+            document.documentElement.style.setProperty('--cover-size', `${currentCoverSize}px`);
+        });
+
+        minusBtn.addEventListener('click', () => {
+            currentCoverSize = Math.max(currentCoverSize - 20, 100);
+            document.documentElement.style.setProperty('--cover-size', `${currentCoverSize}px`);
+        });
+    }
 }
 
 document.getElementById('toggle-view').addEventListener('click', () => {
@@ -196,7 +213,6 @@ document.getElementById('toggle-view').addEventListener('click', () => {
     // Reset sort toggle
     isColorSorted = false;
     document.getElementById('sort-color').textContent = "Sort by Color";
-
 });
 
 document.getElementById('sort-color').addEventListener('click', () => {
@@ -220,7 +236,6 @@ document.getElementById('sort-color').addEventListener('click', () => {
         button.textContent = "Sort by Color";
     }
 });
-
 
 function filterBooks(query) {
     const isFlat = document.body.classList.contains('flat-view');

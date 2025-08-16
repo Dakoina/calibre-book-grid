@@ -272,6 +272,141 @@ body {
 .mobile-size-controls button:active {
   background: #666;
 }
+
+/* View mode dropdown styling */
+.view-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#view-mode {
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .view-controls {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .view-controls label {
+    font-size: 12px;
+  }
+
+  #view-mode {
+    min-height: 32px;
+    padding: 4px 6px;
+  }
+}
+
+/* Text-only view styles */
+.text-view .book-grid,
+.text-view .book-grid-flat,
+.text-view .size-controls {
+  display: none;
+}
+
+.text-view .author-section,
+.text-view .series-section {
+  display: none;
+}
+
+.text-list {
+  display: none;
+  margin: 20px;
+}
+
+.text-view .text-list {
+  display: block;
+}
+
+.text-author-section {
+  margin-bottom: 25px;
+}
+
+.text-author-section h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  color: #f0f0f0;
+}
+
+.text-series-section {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.text-series-section h3 {
+  color: #cccccc;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.text-book-list {
+  margin-left: 15px;
+}
+
+.text-book-item {
+  padding: 4px 0;
+  border-bottom: 1px solid #2a2a2a;
+  color: #e0e0e0;
+  font-size: 0.95em;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.text-book-item:hover {
+  background-color: #1a1a1a;
+  padding-left: 8px;
+}
+
+.text-book-item:last-child {
+  border-bottom: none;
+}
+
+.text-book-title {
+  font-weight: 500;
+  color: #f0f0f0;
+  margin-bottom: 2px;
+}
+
+.text-book-details {
+  font-size: 0.85em;
+  color: #aaa;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .text-list {
+    margin: 10px;
+  }
+
+  .text-author-section h2 {
+    font-size: 1.2em;
+  }
+
+  .text-series-section {
+    margin-left: 10px;
+  }
+
+  .text-book-list {
+    margin-left: 10px;
+  }
+
+  .text-book-item {
+    font-size: 0.9em;
+  }
+}
 @media (max-width: 768px) {
   button {
     padding: 8px 12px;

@@ -2,7 +2,8 @@ let booksByAuthor = {};
 let alphabetSet = new Set();
 let flatGridOriginalOrder = [];
 let isColorSorted = false;
-let currentCoverSize = 175; // Track current cover size
+let currentCoverSize = 175;
+let currentViewMode = 'structured';
 
 
 fetch('books.json')
@@ -21,13 +22,53 @@ fetch('books.json')
 
         renderAlphabetNav([...alphabetSet].sort());
         renderLibrary(booksByAuthor);
+        renderTextLibrary(booksByAuthor);
         setupSlider();
         setupMobileSizeControls();
+        setupViewModeSelector();
 
         document.getElementById('search').addEventListener('input', e => {
             filterBooks(e.target.value.trim().toLowerCase());
         });
     });
+
+function setupViewModeSelector() {
+    const viewSelect = document.getElementById('view-mode');
+    const sortColorBtn = document.getElementById('sort-color');
+
+    viewSelect.addEventListener('change', () => {
+        const selectedMode = viewSelect.value;
+        currentViewMode = selectedMode;
+
+        // Remove all view classes
+        document.body.classList.remove('flat-view', 'text-view');
+
+        // Hide all view containers
+        document.getElementById('flat-grid').style.display = 'none';
+        document.getElementById('text-list').style.display = 'none';
+        sortColorBtn.classList.add('hidden');
+
+        // Reset sort state
+        isColorSorted = false;
+        sortColorBtn.textContent = "Sort by Color";
+
+        switch(selectedMode) {
+            case 'flat':
+                document.body.classList.add('flat-view');
+                document.getElementById('flat-grid').style.display = 'flex';
+                sortColorBtn.classList.remove('hidden');
+                break;
+            case 'text':
+                document.body.classList.add('text-view');
+                document.getElementById('text-list').style.display = 'block';
+                break;
+            case 'structured':
+            default:
+                // Structured view is the default state
+                break;
+        }
+    });
+}
 
 function renderAlphabetNav(letters) {
     const nav = document.getElementById('alphabet-jump');
@@ -148,6 +189,75 @@ function renderLibrary(data) {
     container.appendChild(flatGrid);
 }
 
+function renderTextLibrary(data) {
+    const container = document.getElementById('library');
+
+    let textList = document.createElement('div');
+    textList.className = 'text-list';
+    textList.id = 'text-list';
+
+    Object.keys(data).sort().forEach(author => {
+        const authorSection = document.createElement('section');
+        authorSection.className = 'text-author-section';
+        authorSection.id = `text-author-${author}`;
+        authorSection.setAttribute('data-letter', author[0].toUpperCase());
+
+        const authorTitle = document.createElement('h2');
+        authorTitle.textContent = author;
+        authorSection.appendChild(authorTitle);
+
+        const seriesMap = data[author];
+        const seriesList = Object.keys(seriesMap).sort();
+        const hideNoSeriesTitle = seriesList.length === 1 && seriesList[0] === 'No Series';
+
+        seriesList.forEach(series => {
+            const seriesSection = document.createElement('div');
+            seriesSection.className = 'text-series-section';
+
+            if (!hideNoSeriesTitle || series !== 'No Series') {
+                const seriesTitle = document.createElement('h3');
+                seriesTitle.textContent = series;
+                seriesSection.appendChild(seriesTitle);
+            }
+
+            const bookList = document.createElement('div');
+            bookList.className = 'text-book-list';
+
+            seriesMap[series]
+                .sort((a, b) => (a.series_index || 0) - (b.series_index || 0) || a.title.localeCompare(b.title))
+                .forEach(book => {
+                    const bookItem = document.createElement('div');
+                    bookItem.className = 'text-book-item';
+                    bookItem.dataset.author = book.author || '';
+                    bookItem.dataset.series = book.series || '';
+                    bookItem.dataset.title = book.title || '';
+
+                    const title = document.createElement('div');
+                    title.className = 'text-book-title';
+                    title.textContent = book.title || 'Untitled';
+
+                    const details = document.createElement('div');
+                    details.className = 'text-book-details';
+                    const seriesInfo = book.series && book.series !== 'No Series'
+                        ? ` • ${book.series} #${book.series_index || 1}`
+                        : '';
+                    details.textContent = `${book.author || 'Unknown Author'}${seriesInfo}`;
+
+                    bookItem.appendChild(title);
+                    bookItem.appendChild(details);
+                    bookList.appendChild(bookItem);
+                });
+
+            seriesSection.appendChild(bookList);
+            authorSection.appendChild(seriesSection);
+        });
+
+        textList.appendChild(authorSection);
+    });
+
+    container.appendChild(textList);
+}
+
 function showTooltip(e, book) {
     const tooltip = document.getElementById('tooltip');
     tooltip.innerHTML = `
@@ -238,20 +348,42 @@ document.getElementById('sort-color').addEventListener('click', () => {
 });
 
 function filterBooks(query) {
-    const isFlat = document.body.classList.contains('flat-view');
-
     if (!query) {
+        // Show all items in all views
         document.querySelectorAll('.book-cover').forEach(img => img.style.display = '');
         document.querySelectorAll('.author-section, .series-section').forEach(section => section.style.display = '');
+        document.querySelectorAll('.text-book-item').forEach(item => item.style.display = '');
+        document.querySelectorAll('.text-author-section, .text-series-section').forEach(section => section.style.display = '');
         return;
     }
 
-    if (isFlat) {
+    if (currentViewMode === 'flat') {
         document.querySelectorAll('#flat-grid .book-cover').forEach(img => {
             const text = `${img.alt} ${img.dataset.author} ${img.dataset.series}`.toLowerCase();
             img.style.display = text.includes(query) ? '' : 'none';
         });
+    } else if (currentViewMode === 'text') {
+        document.querySelectorAll('.text-author-section').forEach(authorSec => {
+            let showAuthor = false;
+
+            authorSec.querySelectorAll('.text-series-section').forEach(seriesSec => {
+                let showSeries = false;
+
+                seriesSec.querySelectorAll('.text-book-item').forEach(item => {
+                    const text = `${item.dataset.title} ${item.dataset.author} ${item.dataset.series}`.toLowerCase();
+                    const match = text.includes(query);
+                    item.style.display = match ? '' : 'none';
+                    if (match) showSeries = true;
+                });
+
+                seriesSec.style.display = showSeries ? '' : 'none';
+                if (showSeries) showAuthor = true;
+            });
+
+            authorSec.style.display = showAuthor ? '' : 'none';
+        });
     } else {
+        // Structured view
         document.querySelectorAll('.author-section').forEach(authorSec => {
             let showAuthor = false;
 

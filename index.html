@@ -18,7 +18,14 @@
                 <button id="size-plus" type="button">+</button>
             </div>
         </div>
-        <button id="toggle-view">Flat View</button>
+        <div class="view-controls">
+            <label for="view-mode">View:</label>
+            <select id="view-mode">
+                <option value="structured">Structured</option>
+                <option value="flat">Flat</option>
+                <option value="text">No Covers</option>
+            </select>
+        </div>
         <button id="sort-color" class="hidden">Sort by Color</button>
     </div>
     <label for="search"></label><input type="text" id="search" placeholder="Search books..." />

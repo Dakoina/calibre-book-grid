@@ -388,23 +388,51 @@ body {
 
 @media (max-width: 768px) {
   .text-list {
-    margin: 10px;
+    margin: 8px;
+  }
+
+  .text-author-section {
+    margin-bottom: 15px;
   }
 
   .text-author-section h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    padding-bottom: 3px;
   }
 
   .text-series-section {
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  .text-series-section h3 {
+    font-size: 0.95em;
+    margin-bottom: 4px;
   }
 
   .text-book-list {
-    margin-left: 10px;
+    margin-left: 8px;
   }
 
   .text-book-item {
+    padding: 2px 0;
+    font-size: 0.85em;
+    line-height: 1.2;
+  }
+
+  .text-book-item:hover {
+    padding-left: 4px;
+  }
+
+  .text-book-title {
+    margin-bottom: 1px;
     font-size: 0.9em;
+  }
+
+  .text-book-details {
+    font-size: 0.75em;
+    margin-top: 1px;
   }
 }
 @media (max-width: 768px) {

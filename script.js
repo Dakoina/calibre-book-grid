@@ -236,15 +236,7 @@ function renderTextLibrary(data) {
                     title.className = 'text-book-title';
                     title.textContent = book.title || 'Untitled';
 
-                    const details = document.createElement('div');
-                    details.className = 'text-book-details';
-                    const seriesInfo = book.series && book.series !== 'No Series'
-                        ? ` • ${book.series} #${book.series_index || 1}`
-                        : '';
-                    details.textContent = `${book.author || 'Unknown Author'}${seriesInfo}`;
-
                     bookItem.appendChild(title);
-                    bookItem.appendChild(details);
                     bookList.appendChild(bookItem);
                 });
 

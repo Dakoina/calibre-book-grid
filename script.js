@@ -101,7 +101,21 @@ function createBookImage(book) {
         img.dataset.hue = h;
     }
 
-    return img;
+    // Wrap image to allow positioned overlay badge
+    const wrapper = document.createElement('div');
+    wrapper.className = 'cover-wrapper';
+    wrapper.appendChild(img);
+
+    // Add green check badge if marked as read
+    if (book.is_read) {
+        const badge = document.createElement('span');
+        badge.className = 'read-badge';
+        badge.title = 'Read';
+        badge.textContent = '✓';
+        wrapper.appendChild(badge);
+    }
+
+    return wrapper;
 }
 
 function rgbToHsl(r, g, b) {
@@ -322,18 +336,20 @@ document.getElementById('sort-color').addEventListener('click', () => {
     const button = document.getElementById('sort-color');
 
     if (!isColorSorted) {
-        // Sort by hue
-        const sorted = Array.from(grid.querySelectorAll('.book-cover')).sort((a, b) => {
-            const ah = parseFloat(a.dataset.hue) || 0;
-            const bh = parseFloat(b.dataset.hue) || 0;
+        // Sort wrappers by the inner image's hue
+        const wrappers = Array.from(grid.querySelectorAll('.cover-wrapper'));
+        wrappers.sort((wa, wb) => {
+            const a = wa.querySelector('.book-cover');
+            const b = wb.querySelector('.book-cover');
+            const ah = parseFloat(a?.dataset.hue) || 0;
+            const bh = parseFloat(b?.dataset.hue) || 0;
             return ah - bh;
         });
-
-        sorted.forEach(img => grid.appendChild(img));
+        wrappers.forEach(w => grid.appendChild(w));
         isColorSorted = true;
         button.textContent = "Original Order";
     } else {
-        flatGridOriginalOrder.forEach(img => grid.appendChild(img));
+        flatGridOriginalOrder.forEach(w => grid.appendChild(w));
         isColorSorted = false;
         button.textContent = "Sort by Color";
     }
@@ -342,7 +358,7 @@ document.getElementById('sort-color').addEventListener('click', () => {
 function filterBooks(query) {
     if (!query) {
         // Show all items in all views
-        document.querySelectorAll('.book-cover').forEach(img => img.style.display = '');
+        document.querySelectorAll('.cover-wrapper').forEach(w => w.style.display = '');
         document.querySelectorAll('.author-section, .series-section').forEach(section => section.style.display = '');
         document.querySelectorAll('.text-book-item').forEach(item => item.style.display = '');
         document.querySelectorAll('.text-author-section, .text-series-section').forEach(section => section.style.display = '');
@@ -350,30 +366,13 @@ function filterBooks(query) {
     }
 
     if (currentViewMode === 'flat') {
-        document.querySelectorAll('#flat-grid .book-cover').forEach(img => {
-            const text = `${img.alt} ${img.dataset.author} ${img.dataset.series}`.toLowerCase();
-            img.style.display = text.includes(query) ? '' : 'none';
+        document.querySelectorAll('#flat-grid .cover-wrapper').forEach(w => {
+            const img = w.querySelector('.book-cover');
+            const text = `${img?.alt || ''} ${img?.dataset.author || ''} ${img?.dataset.series || ''}`.toLowerCase();
+            w.style.display = text.includes(query) ? '' : 'none';
         });
     } else if (currentViewMode === 'text') {
-        document.querySelectorAll('.text-author-section').forEach(authorSec => {
-            let showAuthor = false;
-
-            authorSec.querySelectorAll('.text-series-section').forEach(seriesSec => {
-                let showSeries = false;
-
-                seriesSec.querySelectorAll('.text-book-item').forEach(item => {
-                    const text = `${item.dataset.title} ${item.dataset.author} ${item.dataset.series}`.toLowerCase();
-                    const match = text.includes(query);
-                    item.style.display = match ? '' : 'none';
-                    if (match) showSeries = true;
-                });
-
-                seriesSec.style.display = showSeries ? '' : 'none';
-                if (showSeries) showAuthor = true;
-            });
-
-            authorSec.style.display = showAuthor ? '' : 'none';
-        });
+        // ... existing code ...
     } else {
         // Structured view
         document.querySelectorAll('.author-section').forEach(authorSec => {
@@ -382,10 +381,11 @@ function filterBooks(query) {
             authorSec.querySelectorAll('.series-section').forEach(seriesSec => {
                 let showSeries = false;
 
-                seriesSec.querySelectorAll('.book-cover').forEach(img => {
-                    const text = `${img.alt} ${img.dataset.author} ${img.dataset.series}`.toLowerCase();
+                seriesSec.querySelectorAll('.cover-wrapper').forEach(w => {
+                    const img = w.querySelector('.book-cover');
+                    const text = `${img?.alt || ''} ${img?.dataset.author || ''} ${img?.dataset.series || ''}`.toLowerCase();
                     const match = text.includes(query);
-                    img.style.display = match ? '' : 'none';
+                    w.style.display = match ? '' : 'none';
                     if (match) showSeries = true;
                 });
 

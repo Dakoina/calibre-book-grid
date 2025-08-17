@@ -132,20 +132,58 @@ body {
 }
 
 .book-cover {
-  width: var(--cover-size, 175px);
-  transition: transform 0.2s ease;
-  cursor: pointer;
-  position: relative;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-  touch-action: manipulation;
+    width: 100%; /* fill wrapper */
+    height: auto;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    touch-action: manipulation;
 }
 
-@media (max-width: 768px) {
-  .book-cover {
-    width: var(--cover-size, 140px);
-  }
+
+
+/* Use wrapper to enforce uniform width; image fills wrapper */
+.cover-wrapper {
+    position: relative;
+    display: inline-block;
+    width: var(--cover-size, 175px);
 }
+
+/* green check badge in bottom-right */
+.read-badge {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    width: 18px;
+    height: 18px;
+    background: #2e7d32; /* green */
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    pointer-events: none; /* clicks go to the cover */
+}
+
+
+/* keep existing hover scale effect on the image */
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .cover-wrapper {
+        width: var(--cover-size, 140px);
+    }
+    .book-cover {
+        width: 100%;
+    }
+}
+
 
 .book-cover:hover {
   transform: scale(1.05);

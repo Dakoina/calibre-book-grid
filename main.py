@@ -5,6 +5,7 @@ import csv
 import shutil
 from tqdm import tqdm
 from PIL import Image
+import hashlib
 
 # === CONFIGURATION ===
 calibre_library_path = "C:\\Users\\debon\\Calibre Bibliotheek"
@@ -15,6 +16,13 @@ output_json_path = json_output_path
 
 # === CREATE COVER FOLDER ===
 os.makedirs(output_cover_folder, exist_ok=True)
+
+def sha256_of_file(path: str, chunk_size: int = 8192) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(chunk_size), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 # === CONNECT TO DB ===
 conn = sqlite3.connect(db_path)
@@ -27,12 +35,14 @@ cursor.execute("""
                       group_concat(authors.name, ', ') AS authors,
                       series.name                      AS series,
                       books.series_index,
-                      books.path                       AS book_folder
+                      books.path                       AS book_folder,
+                      COALESCE(custom_column_1.value, 0) AS is_read
                FROM books
                         LEFT JOIN books_authors_link ON books.id = books_authors_link.book
                         LEFT JOIN authors ON books_authors_link.author = authors.id
                         LEFT JOIN books_series_link ON books.id = books_series_link.book
                         LEFT JOIN series ON books_series_link.series = series.id
+                        LEFT JOIN custom_column_1 ON books.id = custom_column_1.book                   
                GROUP BY books.id
                ORDER BY authors, series, books.title
                """)
@@ -47,6 +57,7 @@ for row in cursor.fetchall():
     series = row[3] if row[3] else ''
     series_index = row[4] if row[4] is not None else ''
     book_folder = row[5]
+    is_read = row[6]
 
     # Full path to cover
     cover_path = os.path.join(calibre_library_path, book_folder, "cover.jpg")
@@ -59,7 +70,8 @@ for row in cursor.fetchall():
         "title": title,
         "series": series,
         "series_index": series_index,
-        "cover_path": cover_path
+        "cover_path": cover_path,
+        "is_read": is_read
     })
 
 conn.close()
@@ -95,13 +107,23 @@ failed = 0
 
 print(f"\n📦 Processing {len(books)} covers (max width 400px)...")
 
-for book in tqdm(books, desc="Resizing covers", unit="book"):
+for book in tqdm(books, desc="Updating/resizing covers", unit="book"):
     original_cover = book["cover_path"]
     book_id = book["id"]
     new_cover_path = os.path.join(output_cover_folder, f"{book_id}.jpg")
 
-    # Skip if already processed
-    if os.path.exists(new_cover_path):
+    # Determine current source hash (if source exists)
+    current_hash = None
+    if original_cover and os.path.exists(original_cover):
+        try:
+            current_hash = sha256_of_file(original_cover)
+        except Exception as e:
+            print(f"❌ Error hashing cover for book ID {book_id}: {e}")
+            current_hash = None
+
+    # Decide whether to skip based on hash match and presence of resized file
+    previous_hash = book.get("cover_hash")
+    if os.path.exists(new_cover_path) and current_hash and previous_hash == current_hash:
         book["cover_path"] = f"covers/{book_id}.jpg"
         skipped += 1
         continue
@@ -116,6 +138,8 @@ for book in tqdm(books, desc="Resizing covers", unit="book"):
                     img = img.resize(new_size, Image.LANCZOS)
                 img.save(new_cover_path, "JPEG", quality=85)
                 book["cover_path"] = f"covers/{book_id}.jpg"
+                if current_hash:
+                    book["cover_hash"] = current_hash
                 copied += 1
 
                 # Calculate average color (simple pixel mean)

@@ -132,8 +132,9 @@ body {
 }
 
 .book-cover {
-    width: 100%; /* fill wrapper */
-    height: auto;
+    width: 100%; /* fill wrapper width */
+    height: 100%; /* fill wrapper height to enforce uniform boxes */
+    object-fit: cover; /* crop overflow while keeping cover centered */
     transition: transform 0.2s ease;
     cursor: pointer;
     position: relative;
@@ -144,11 +145,14 @@ body {
 
 
 
-/* Use wrapper to enforce uniform width; image fills wrapper */
+/* Use wrapper to enforce uniform width and aspect ratio; image fills wrapper */
 .cover-wrapper {
     position: relative;
     display: inline-block;
     width: var(--cover-size, 175px);
+    aspect-ratio: 2 / 3; /* standard book portrait ratio (W/H) */
+    overflow: hidden; /* hide overflow when object-fit: cover crops */
+    background-color: #0f0f0f; /* subtle backdrop for transparency */
 }
 
 /* green check badge in bottom-right */
@@ -492,7 +496,7 @@ body {
 
 /* Very small screens */
 @media (max-width: 480px) {
-  .book-cover {
+  .cover-wrapper {
     width: var(--cover-size, 120px);
   }
 

@@ -41,7 +41,8 @@ body {
   }
 
   #alphabet-jump {
-    display: none; /* Hide alphabet navigation on mobile */
+    display: block;
+    width: 100%;
   }
 
   .control-row {
@@ -75,6 +76,32 @@ body {
 
 #alphabet-jump button:hover {
   background: #555;
+}
+
+/* New: dropdown styling for the alphabet jump */
+#alphabet-jump select {
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 140px;
+}
+
+#alphabet-jump select:focus {
+  outline: none;
+  border-color: #666;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+  #alphabet-jump select {
+    width: 100%;
+    min-height: 32px;
+    padding: 4px 6px;
+  }
 }
 
 .author-section {

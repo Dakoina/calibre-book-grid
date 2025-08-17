@@ -72,15 +72,32 @@ function setupViewModeSelector() {
 
 function renderAlphabetNav(letters) {
     const nav = document.getElementById('alphabet-jump');
+    nav.innerHTML = '';
+
+    const select = document.createElement('select');
+    select.id = 'alphabet-select';
+
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Jump to letter…';
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    select.appendChild(placeholder);
+
     letters.forEach(letter => {
-        const btn = document.createElement('button');
-        btn.textContent = letter;
-        btn.onclick = () => {
-            const section = document.querySelector(`[data-letter='${letter}']`);
-            if (section) section.scrollIntoView({behavior: 'smooth'});
-        };
-        nav.appendChild(btn);
+        const opt = document.createElement('option');
+        opt.value = letter;
+        opt.textContent = letter;
+        select.appendChild(opt);
     });
+
+    select.addEventListener('change', () => {
+        const letter = select.value;
+        const section = document.querySelector(`[data-letter='${letter}']`);
+        if (section) section.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    nav.appendChild(select);
 }
 
 function createBookImage(book) {
@@ -312,7 +329,7 @@ function setupMobileSizeControls() {
         });
 
         minusBtn.addEventListener('click', () => {
-            currentCoverSize = Math.max(currentCoverSize - 20, 100);
+            currentCoverSize = Math.max(currentCoverSize - 20, 60);
             document.documentElement.style.setProperty('--cover-size', `${currentCoverSize}px`);
         });
     }

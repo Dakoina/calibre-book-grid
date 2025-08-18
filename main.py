@@ -6,6 +6,7 @@ import shutil
 from tqdm import tqdm
 from PIL import Image
 import hashlib
+import sys  # place alongside your other imports
 
 # === CONFIGURATION ===
 calibre_library_path = "C:\\Users\\debon\\Calibre Bibliotheek"
@@ -13,6 +14,11 @@ db_path = os.path.join(calibre_library_path, "metadata.db")
 json_output_path = "books.json"
 output_cover_folder = "covers"
 output_json_path = json_output_path
+
+# === VALIDATE CALIBRE METADATA DB PATH ===
+if not os.path.isfile(db_path):
+    print("Calibre library was not found: metadata.db is missing at the configured path.")
+    sys.exit(1)
 
 # === CREATE COVER FOLDER ===
 os.makedirs(output_cover_folder, exist_ok=True)

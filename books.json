@@ -60,10 +60,40 @@
     ]
   },
   {
+    "id": 1225,
+    "author": "Abigail Hing Wen",
+    "title": "Loveboat Forever",
+    "series": "Loveboat, Taipei",
+    "series_index": 3.0,
+    "cover_path": "covers/1225.jpg",
+    "is_read": 0,
+    "cover_hash": "6168a8ccbbb51846ce03c089ee09522f6d79fe827839474ce55e613a24a227ef",
+    "cover_color": [
+      60,
+      40,
+      38
+    ]
+  },
+  {
+    "id": 1224,
+    "author": "Abigail Hing Wen",
+    "title": "Loveboat Reunion",
+    "series": "Loveboat, Taipei",
+    "series_index": 2.0,
+    "cover_path": "covers/1224.jpg",
+    "is_read": 0,
+    "cover_hash": "f2e18cf91f5487393d211af8c3833fcbdbc64cc419a87d8d98ac78ed62f44618",
+    "cover_color": [
+      64,
+      47,
+      33
+    ]
+  },
+  {
     "id": 309,
     "author": "Abigail Hing Wen",
     "title": "Loveboat, Taipei",
-    "series": "",
+    "series": "Loveboat, Taipei",
     "series_index": 1.0,
     "cover_path": "covers/309.jpg",
     "is_read": 0,
@@ -420,10 +450,25 @@
     ]
   },
   {
+    "id": 1191,
+    "author": "Amber Smith",
+    "title": "The Way I Am Now",
+    "series": "The Way I Used to Be",
+    "series_index": 2.0,
+    "cover_path": "covers/1191.jpg",
+    "is_read": 0,
+    "cover_hash": "cf698038f2d677054226adede6a53edf486ad062c41254781e9cc7dfb1983c7f",
+    "cover_color": [
+      149,
+      137,
+      183
+    ]
+  },
+  {
     "id": 259,
     "author": "Amber Smith",
     "title": "The Way I Used to Be",
-    "series": "",
+    "series": "The Way I Used to Be",
     "series_index": 1.0,
     "cover_path": "covers/259.jpg",
     "is_read": 0,
@@ -777,6 +822,21 @@
       163,
       140,
       119
+    ]
+  },
+  {
+    "id": 1184,
+    "author": "Anita Howard",
+    "title": "Versplinterd",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1184.jpg",
+    "is_read": 0,
+    "cover_hash": "f43f72f1de66c8e313e489866b0acacb551dbcf56ebaa0701335ae1bcb65de0d",
+    "cover_color": [
+      99,
+      105,
+      116
     ]
   },
   {
@@ -1275,6 +1335,36 @@
     ]
   },
   {
+    "id": 1232,
+    "author": "Bella Mackie",
+    "title": "How to Kill Your Family",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1232.jpg",
+    "is_read": 0,
+    "cover_hash": "2d2f01a2d3819842c1588a5656656da29f71ad7c51b23e495843d6475044a9ca",
+    "cover_color": [
+      188,
+      148,
+      158
+    ]
+  },
+  {
+    "id": 1182,
+    "author": "Bella Mackie",
+    "title": "What A Way To Go",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1182.jpg",
+    "is_read": 0,
+    "cover_hash": "d52378e93e6050152201472efe6d2de10d4070acb382b5a11f40d12edfc70f93",
+    "cover_color": [
+      107,
+      181,
+      142
+    ]
+  },
+  {
     "id": 1072,
     "author": "Ben Aaronovitch",
     "title": "Amongst Our Weapons",
@@ -1500,6 +1590,21 @@
     ]
   },
   {
+    "id": 1219,
+    "author": "Blair| Eric Arthur",
+    "title": "1984 [Nineteen Eighty-Four]",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1219.jpg",
+    "is_read": 0,
+    "cover_hash": "c8a5f3de66b6c6b94794574b5cd41cae374095e8a195f8d01802fb649117843c",
+    "cover_color": [
+      85,
+      107,
+      58
+    ]
+  },
+  {
     "id": 184,
     "author": "Blake Crouch",
     "title": "Dark Matter",
@@ -1512,6 +1617,81 @@
       189,
       56,
       58
+    ]
+  },
+  {
+    "id": 1216,
+    "author": "Blake Crouch",
+    "title": "Recursion",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1216.jpg",
+    "is_read": 0,
+    "cover_hash": "0732acddd32102d59f0603371d2a2b4acc4b226688023486b50e7c0eb8f4a1c5",
+    "cover_color": [
+      205,
+      200,
+      62
+    ]
+  },
+  {
+    "id": 1213,
+    "author": "Blake Crouch",
+    "title": "Reset",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1213.jpg",
+    "is_read": 0,
+    "cover_hash": "863481e1fd36755c40d8a6a4e4a6934e8c0821fc8de8fd981761fd268d3562b0",
+    "cover_color": [
+      189,
+      180,
+      179
+    ]
+  },
+  {
+    "id": 1256,
+    "author": "Blake Crouch",
+    "title": "Pines",
+    "series": "Wayward Pines",
+    "series_index": 1.0,
+    "cover_path": "covers/1256.jpg",
+    "is_read": 0,
+    "cover_hash": "0376a0d304fdd1fbe3af34d3e106126ee495d485b162318ffc5069b15e086358",
+    "cover_color": [
+      37,
+      67,
+      85
+    ]
+  },
+  {
+    "id": 1258,
+    "author": "Blake Crouch",
+    "title": "Wayward Pines 02 - Wayward",
+    "series": "Wayward Pines",
+    "series_index": 2.0,
+    "cover_path": "covers/1258.jpg",
+    "is_read": 0,
+    "cover_hash": "97b9397381a023ab25af272df9210765c85a49528f1fe9fc45f15a6a075ea9df",
+    "cover_color": [
+      145,
+      78,
+      69
+    ]
+  },
+  {
+    "id": 1257,
+    "author": "Blake Crouch",
+    "title": "Wayward Pines 03 - The Last Town",
+    "series": "Wayward Pines",
+    "series_index": 3.0,
+    "cover_path": "covers/1257.jpg",
+    "is_read": 0,
+    "cover_hash": "9cb9a623c2ac34647e4fa501be0c95657d76d61895a8487cc03f9191ed598b27",
+    "cover_color": [
+      117,
+      69,
+      54
     ]
   },
   {
@@ -1722,6 +1902,21 @@
       80,
       76,
       76
+    ]
+  },
+  {
+    "id": 1268,
+    "author": "Brandon Sanderson",
+    "title": "The Sunlit Man",
+    "series": "The Cosmere",
+    "series_index": 27.0,
+    "cover_path": "covers/1268.jpg",
+    "is_read": 0,
+    "cover_hash": "4ae6ce9266af6a5bece067fd4dffcf079cb02a0dc0168491dde9f106cfeab70d",
+    "cover_color": [
+      135,
+      54,
+      28
     ]
   },
   {
@@ -2265,11 +2460,26 @@
     ]
   },
   {
+    "id": 1156,
+    "author": "Catherine Doyle",
+    "title": "Burning Crowns: The third book in this bestselling royal YA fantasy romance series. Tik Tok made me buy it! (Twin Crowns, Book 3)",
+    "series": "Twin Crowns",
+    "series_index": 3.0,
+    "cover_path": "covers/1156.jpg",
+    "is_read": 0,
+    "cover_hash": "6d9d64c424d7bb866369b78dbda4596da538b985483d3309aa6c8a4326aa81d2",
+    "cover_color": [
+      129,
+      68,
+      49
+    ]
+  },
+  {
     "id": 1154,
     "author": "Catherine Doyle",
     "title": "Cursed Crowns",
-    "series": "",
-    "series_index": 1.0,
+    "series": "Twin Crowns",
+    "series_index": 2.0,
     "cover_path": "covers/1154.jpg",
     "is_read": 0,
     "cover_hash": "6942c509b6547277e737581547060f2e16437d585880fa0d32b10fb1f40813e1",
@@ -2283,7 +2493,7 @@
     "id": 1155,
     "author": "Catherine Doyle",
     "title": "Twin Crowns",
-    "series": "",
+    "series": "Twin Crowns",
     "series_index": 1.0,
     "cover_path": "covers/1155.jpg",
     "is_read": 0,
@@ -2292,21 +2502,6 @@
       44,
       50,
       46
-    ]
-  },
-  {
-    "id": 1156,
-    "author": "Catherine Doyle, Katherine Webber",
-    "title": "Burning Crowns: The third book in this bestselling royal YA fantasy romance series. Tik Tok made me buy it! (Twin Crowns, Book 3)",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1156.jpg",
-    "is_read": 0,
-    "cover_hash": "6d9d64c424d7bb866369b78dbda4596da538b985483d3309aa6c8a4326aa81d2",
-    "cover_color": [
-      129,
-      68,
-      49
     ]
   },
   {
@@ -2820,6 +3015,51 @@
     ]
   },
   {
+    "id": 1265,
+    "author": "Cixin Liu",
+    "title": "Death's End",
+    "series": "Remembrance of Earth's Past",
+    "series_index": 3.0,
+    "cover_path": "covers/1265.jpg",
+    "is_read": 0,
+    "cover_hash": "ceb5807610509db5334f6b0ea952505f5195d84a5f8dfbfe2d82b95788d5f779",
+    "cover_color": [
+      108,
+      88,
+      96
+    ]
+  },
+  {
+    "id": 1266,
+    "author": "Cixin Liu",
+    "title": "The Dark Forest",
+    "series": "Remembrance of Earth's Past",
+    "series_index": 2.0,
+    "cover_path": "covers/1266.jpg",
+    "is_read": 0,
+    "cover_hash": "6a65956733019434140afe8cfa13bdaab099e266c1464e00a7c47bc875ff1213",
+    "cover_color": [
+      66,
+      50,
+      46
+    ]
+  },
+  {
+    "id": 1192,
+    "author": "Cixin Liu",
+    "title": "The Three-Body Problem",
+    "series": "Remembrance of Earth's Past",
+    "series_index": 1.0,
+    "cover_path": "covers/1192.jpg",
+    "is_read": 0,
+    "cover_hash": "1ad1019aa66f36e227afe36ab22d6c23d73f553c0f96311c5c9accfaa2aee881",
+    "cover_color": [
+      86,
+      107,
+      120
+    ]
+  },
+  {
     "id": 81,
     "author": "Claire Keegan",
     "title": "Small Things Like These",
@@ -3042,6 +3282,21 @@
       76,
       44,
       32
+    ]
+  },
+  {
+    "id": 1210,
+    "author": "Dani Francis",
+    "title": "Silver Elite",
+    "series": "Silver Elite",
+    "series_index": 1.0,
+    "cover_path": "covers/1210.jpg",
+    "is_read": 0,
+    "cover_hash": "2c34b6ef6d912893d12a655788d79a2ce0b2f48b84416514144feb65743e25f7",
+    "cover_color": [
+      58,
+      63,
+      67
     ]
   },
   {
@@ -3570,6 +3825,21 @@
     ]
   },
   {
+    "id": 1174,
+    "author": "Delia Owens",
+    "title": "Where the Crawdads Sing",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1174.jpg",
+    "is_read": 0,
+    "cover_hash": "d353012e3bab0883f60fb60373a0838475192d81a24d3700d367fd07df10e16a",
+    "cover_color": [
+      174,
+      130,
+      111
+    ]
+  },
+  {
     "id": 1053,
     "author": "Dennis E. Taylor",
     "title": "All These Worlds (Bobiverse Book 3)",
@@ -3627,6 +3897,21 @@
       113,
       63,
       31
+    ]
+  },
+  {
+    "id": 1211,
+    "author": "Devney Perry",
+    "title": "Shield of Sparrows",
+    "series": "Shield of Sparrows",
+    "series_index": 1.0,
+    "cover_path": "covers/1211.jpg",
+    "is_read": 0,
+    "cover_hash": "71b78cd46ec3ec7b4db7db63ddec85fcd7a5e9789d72e291e72dc28573c2e9d3",
+    "cover_color": [
+      83,
+      77,
+      69
     ]
   },
   {
@@ -3945,6 +4230,21 @@
     ]
   },
   {
+    "id": 1241,
+    "author": "Elena Armas",
+    "title": "De Spaanse liefdesleugen",
+    "series": "Love Deception (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1241.jpg",
+    "is_read": 0,
+    "cover_hash": "5775ab0189c256189e5203adfc059c8633fee7bbd0a7895f38fb8b6d0b47b70d",
+    "cover_color": [
+      233,
+      141,
+      120
+    ]
+  },
+  {
     "id": 1024,
     "author": "Elena Armas",
     "title": "The American Roommate Experiment: A Novel",
@@ -4152,6 +4452,66 @@
       170,
       169,
       164
+    ]
+  },
+  {
+    "id": 1263,
+    "author": "Elle Kennedy",
+    "title": "Anders dan je dacht",
+    "series": "Avalon Bay (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1263.jpg",
+    "is_read": 0,
+    "cover_hash": "15895df9c81fa7c4fef41aba1c3d2db3712a226a284beace753520286763fd63",
+    "cover_color": [
+      178,
+      148,
+      126
+    ]
+  },
+  {
+    "id": 1222,
+    "author": "Elle Kennedy",
+    "title": "Meer dan je weet",
+    "series": "Avalon Bay (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1222.jpg",
+    "is_read": 0,
+    "cover_hash": "4c5f029cc1f024e5b81ceed83fc38ab90b04da3d02e1983bb3749a33c5547cab",
+    "cover_color": [
+      60,
+      105,
+      141
+    ]
+  },
+  {
+    "id": 1205,
+    "author": "Elle Kennedy",
+    "title": "The Graham Effect (Campus Diaries #1)",
+    "series": "Campus Diaries",
+    "series_index": 1.0,
+    "cover_path": "covers/1205.jpg",
+    "is_read": 0,
+    "cover_hash": "6d630feb34cca6780746aaeb39df5e55fcf76afc9a2804dca8b74b30df0a8d1d",
+    "cover_color": [
+      166,
+      142,
+      142
+    ]
+  },
+  {
+    "id": 1234,
+    "author": "Elle Kennedy",
+    "title": "Het Graham effect",
+    "series": "Campus Diaries (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1234.jpg",
+    "is_read": 0,
+    "cover_hash": "03ee74674519c1d87045529b24a9368794b7b4a57a8f838bf0cb437c5fdf8849",
+    "cover_color": [
+      165,
+      142,
+      141
     ]
   },
   {
@@ -4920,6 +5280,21 @@
     ]
   },
   {
+    "id": 1206,
+    "author": "Freida McFadden",
+    "title": "The Wife Upstairs",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1206.jpg",
+    "is_read": 0,
+    "cover_hash": "717033065c8788dea53e23a037ffefeb50fc5ecff423fcd4a48addd17a09be67",
+    "cover_color": [
+      68,
+      65,
+      40
+    ]
+  },
+  {
     "id": 901,
     "author": "Freida McFadden",
     "title": "Wat de hulp weet",
@@ -5067,6 +5442,21 @@
       41,
       54,
       69
+    ]
+  },
+  {
+    "id": 1204,
+    "author": "Gareth Brown",
+    "title": "The Book of Doors",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1204.jpg",
+    "is_read": 0,
+    "cover_hash": "3eec5d5e56ff2a8384fc93d5458e0527a5f4d27afd9c1e19dad35d479af64060",
+    "cover_color": [
+      43,
+      54,
+      112
     ]
   },
   {
@@ -5625,6 +6015,36 @@
     ]
   },
   {
+    "id": 1262,
+    "author": "Hannah Nicole Maehrer",
+    "title": "Apprentice to the Villain",
+    "series": "Assistant to the Villain",
+    "series_index": 2.0,
+    "cover_path": "covers/1262.jpg",
+    "is_read": 0,
+    "cover_hash": "b84d18220790f6120303d7c946b81a754ea8e14ff2cf7b246b933bd6c451f7d5",
+    "cover_color": [
+      197,
+      105,
+      117
+    ]
+  },
+  {
+    "id": 1260,
+    "author": "Hannah Nicole Maehrer",
+    "title": "Assistant to the Villain",
+    "series": "Assistant to the Villain",
+    "series_index": 1.0,
+    "cover_path": "covers/1260.jpg",
+    "is_read": 0,
+    "cover_hash": "82192eca0079913f76a9ca3f5d41feb26ddcbb2ae2e028636c0e150ae2184d2f",
+    "cover_color": [
+      126,
+      121,
+      140
+    ]
+  },
+  {
     "id": 728,
     "author": "Hanya Yanagihara",
     "title": "A Little Life",
@@ -5637,6 +6057,21 @@
       110,
       121,
       135
+    ]
+  },
+  {
+    "id": 1189,
+    "author": "Harper Lee",
+    "title": "To Kill a Mockingbird",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1189.jpg",
+    "is_read": 0,
+    "cover_hash": "48190d360a4eac6d5430c0f3671dbd76b8b8f2af4793b8db3eb24b90ad287185",
+    "cover_color": [
+      93,
+      58,
+      47
     ]
   },
   {
@@ -5865,36 +6300,6 @@
     ]
   },
   {
-    "id": 1168,
-    "author": "Het negende huis -- Leigh Bardugo -- Alex Stern| 1| 2020 -- Boekerij; Meulenhoff Boekerij B V -- 9789022590652 converted.kepub",
-    "title": "Het negende huis",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1168.jpg",
-    "is_read": 0,
-    "cover_hash": "7b2a5157383ca2fb94beb55f9dca5770444b242649e8beb7496126d264fdc523",
-    "cover_color": [
-      71,
-      51,
-      42
-    ]
-  },
-  {
-    "id": 1139,
-    "author": "Hibbert| Talia",
-    "title": "Take a Hint, Dani Brown",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1139.jpg",
-    "is_read": 0,
-    "cover_hash": "f25bda93bb34134c23c247dfe06406451a7b5c2c73c739af2ef437a6fb44a723",
-    "cover_color": [
-      216,
-      204,
-      103
-    ]
-  },
-  {
     "id": 243,
     "author": "Holly Black",
     "title": "The Cruel Prince (The Folk of the Air)",
@@ -6045,6 +6450,21 @@
     ]
   },
   {
+    "id": 1220,
+    "author": "Hope Mirrlees",
+    "title": "Lud-In-The-Mist",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1220.jpg",
+    "is_read": 0,
+    "cover_hash": "bc0f5b41c28cd178081ea89935ef646c29f48a2ee74b8c1ff06afe7e8dd47a5e",
+    "cover_color": [
+      171,
+      146,
+      122
+    ]
+  },
+  {
     "id": 320,
     "author": "Héctor García, Francesc Miralles",
     "title": "Ikigai",
@@ -6057,6 +6477,21 @@
       181,
       216,
       223
+    ]
+  },
+  {
+    "id": 1259,
+    "author": "Ilona Andrews",
+    "title": "The Inheritance",
+    "series": "Breach Wars",
+    "series_index": 1.0,
+    "cover_path": "covers/1259.jpg",
+    "is_read": 0,
+    "cover_hash": "f1fd1037f0721142fb82f77e51f65b8e2b34ddd4edaa75a54b622f06a66a5123",
+    "cover_color": [
+      75,
+      73,
+      146
     ]
   },
   {
@@ -6252,6 +6687,21 @@
       29,
       19,
       13
+    ]
+  },
+  {
+    "id": 1215,
+    "author": "J. Zachary Pike",
+    "title": "Orconomics: A Satire (The Dark Profit Saga Book 1)",
+    "series": "The Dark Profit Saga",
+    "series_index": 1.0,
+    "cover_path": "covers/1215.jpg",
+    "is_read": 0,
+    "cover_hash": "94d54b59252075719307e016f2fe58d0a6e4e282a524dc3b13277d0d39f6d613",
+    "cover_color": [
+      125,
+      96,
+      56
     ]
   },
   {
@@ -6510,26 +6960,26 @@
     ]
   },
   {
-    "id": 1144,
-    "author": "Jay Kristoff",
-    "title": "3 Duistere Dageraad",
+    "id": 1233,
+    "author": "Jane Austen",
+    "title": "Emma",
     "series": "",
     "series_index": 1.0,
-    "cover_path": "covers/1144.jpg",
+    "cover_path": "covers/1233.jpg",
     "is_read": 0,
-    "cover_hash": "88bcb6754eb6296478e409c85568da206be49729cbe784e8dc7f5f498797a517",
+    "cover_hash": "4665f3f59c5443f5f50b97025c969c1fe3bd03dac6a3be7d330b3c24873b8cad",
     "cover_color": [
-      197,
-      187,
-      157
+      110,
+      100,
+      96
     ]
   },
   {
     "id": 1158,
     "author": "Jay Kristoff",
     "title": "Darkdawn--Book Three of the Nevernight Chronicle",
-    "series": "",
-    "series_index": 1.0,
+    "series": "The Nevernight Chronicle",
+    "series_index": 3.0,
     "cover_path": "covers/1158.jpg",
     "is_read": 0,
     "cover_hash": "af487bcd9d17e8b29c1fe5e5103f5a509d4a6d3bb6bd442596df618be1fbfcac",
@@ -6543,8 +6993,8 @@
     "id": 1151,
     "author": "Jay Kristoff",
     "title": "Godsgrave",
-    "series": "",
-    "series_index": 1.0,
+    "series": "The Nevernight Chronicle",
+    "series_index": 2.0,
     "cover_path": "covers/1151.jpg",
     "is_read": 0,
     "cover_hash": "fac07207a9e88f03bb08049292b8817a2430cd5060b48c8122a2ede58b2440d0",
@@ -6555,25 +7005,40 @@
     ]
   },
   {
-    "id": 1146,
+    "id": 1138,
     "author": "Jay Kristoff",
-    "title": "Nimmernacht",
-    "series": "",
+    "title": "Nevernight",
+    "series": "The Nevernight Chronicle",
     "series_index": 1.0,
-    "cover_path": "covers/1146.jpg",
+    "cover_path": "covers/1138.jpg",
     "is_read": 0,
-    "cover_hash": "a1c917d7a4c36bcb97918ac408f9a804edba31ee749158d722b902d5e5b0f75d",
+    "cover_hash": "a28e1ccbaace3f6e0d77f04d4c57614ef82d596b338070e14ec29e70393da9b7",
     "cover_color": [
-      174,
-      147,
-      145
+      143,
+      138,
+      136
+    ]
+  },
+  {
+    "id": 1144,
+    "author": "Jay Kristoff",
+    "title": "Duistere Dageraad",
+    "series": "The Nevernight Chronicle (nl)",
+    "series_index": 3.0,
+    "cover_path": "covers/1144.jpg",
+    "is_read": 0,
+    "cover_hash": "88bcb6754eb6296478e409c85568da206be49729cbe784e8dc7f5f498797a517",
+    "cover_color": [
+      197,
+      187,
+      157
     ]
   },
   {
     "id": 1145,
     "author": "Jay Kristoff",
     "title": "Godsgraf",
-    "series": "The Nevernight Chronicle",
+    "series": "The Nevernight Chronicle (nl)",
     "series_index": 2.0,
     "cover_path": "covers/1145.jpg",
     "is_read": 0,
@@ -6585,18 +7050,18 @@
     ]
   },
   {
-    "id": 1138,
+    "id": 1146,
     "author": "Jay Kristoff",
-    "title": "The Nevernight Chronicle [01] Nevernight",
-    "series": "The Nevernight Chronicle",
+    "title": "Nimmernacht",
+    "series": "The Nevernight Chronicle (nl)",
     "series_index": 1.0,
-    "cover_path": "covers/1138.jpg",
+    "cover_path": "covers/1146.jpg",
     "is_read": 0,
-    "cover_hash": "a28e1ccbaace3f6e0d77f04d4c57614ef82d596b338070e14ec29e70393da9b7",
+    "cover_hash": "a1c917d7a4c36bcb97918ac408f9a804edba31ee749158d722b902d5e5b0f75d",
     "cover_color": [
-      143,
-      138,
-      136
+      174,
+      147,
+      145
     ]
   },
   {
@@ -6723,8 +7188,8 @@
     "id": 1131,
     "author": "Jennifer L. Armentrout",
     "title": "A Kingdom of Flesh and Fire: A Blood and Ash Novel",
-    "series": "",
-    "series_index": 1.0,
+    "series": "Blood and Ash",
+    "series_index": 2.0,
     "cover_path": "covers/1131.jpg",
     "is_read": 0,
     "cover_hash": "2ea948f9c430f5740acc3ea42c7376a2d8d1f24b0c4a46307530f3980c2102e9",
@@ -6735,41 +7200,11 @@
     ]
   },
   {
-    "id": 1165,
-    "author": "Jennifer L. Armentrout",
-    "title": "A Light in the Flame",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1165.jpg",
-    "is_read": 0,
-    "cover_hash": "8ea1cdc8c671e1bf1160671692a4bd165a7c29a8bb3ff92976880ac2b53747c2",
-    "cover_color": [
-      56,
-      53,
-      49
-    ]
-  },
-  {
-    "id": 1164,
-    "author": "Jennifer L. Armentrout",
-    "title": "A Shadow in the Ember",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1164.jpg",
-    "is_read": 0,
-    "cover_hash": "81af7ab3c82266acf76a39493db2da6ee14b2e7e1e129daecdb8c9ff3d898631",
-    "cover_color": [
-      92,
-      71,
-      69
-    ]
-  },
-  {
     "id": 1141,
     "author": "Jennifer L. Armentrout",
     "title": "A Soul of Ash and Blood",
-    "series": "",
-    "series_index": 1.0,
+    "series": "Blood and Ash",
+    "series_index": 5.0,
     "cover_path": "covers/1141.jpg",
     "is_read": 0,
     "cover_hash": "19c4d2d5dd1f857a1d6f170ae7fa5d62552fbe6ce1f7d7a0243388dfa4410bfc",
@@ -6780,40 +7215,10 @@
     ]
   },
   {
-    "id": 1130,
-    "author": "Jennifer L. Armentrout",
-    "title": "A_Fire_in_the_Flesh_Kobo",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1130.jpg",
-    "is_read": 0,
-    "cover_hash": "9ff82d59b3d98b6d4e3fa344b0f3961c38113c0230d0f155369875950ebae158",
-    "cover_color": [
-      64,
-      50,
-      49
-    ]
-  },
-  {
-    "id": 1160,
-    "author": "Jennifer L. Armentrout",
-    "title": "Born of Blood and Ash",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1160.jpg",
-    "is_read": 0,
-    "cover_hash": "519d2afb78374193be7eeeb6762fb220b6e48e0e36f1db13d82f1c7b71897956",
-    "cover_color": [
-      112,
-      103,
-      92
-    ]
-  },
-  {
     "id": 1152,
     "author": "Jennifer L. Armentrout",
     "title": "From Blood and Ash",
-    "series": "",
+    "series": "Blood and Ash",
     "series_index": 1.0,
     "cover_path": "covers/1152.jpg",
     "is_read": 0,
@@ -6828,23 +7233,23 @@
     "id": 1166,
     "author": "Jennifer L. Armentrout",
     "title": "The Crown of Gilded Bones (Blood And Ash Series Book 3)",
-    "series": "",
-    "series_index": 1.0,
+    "series": "Blood and Ash",
+    "series_index": 3.0,
     "cover_path": "covers/1166.jpg",
     "is_read": 0,
-    "cover_hash": "80536c53103db1f638e2d63e205c461c086faefed63e01b3512b989ed884e9c9",
+    "cover_hash": "fdfa7a20e685d450edf75ec315906c14fbe332fb3cc0a912ed9dd4c03460e32f",
     "cover_color": [
-      255,
-      255,
-      255
+      139,
+      127,
+      110
     ]
   },
   {
     "id": 1137,
     "author": "Jennifer L. Armentrout",
-    "title": "The War of Two Queens Google",
+    "title": "The War of Two Queens",
     "series": "Blood and Ash",
-    "series_index": 21.0,
+    "series_index": 4.0,
     "cover_path": "covers/1137.jpg",
     "is_read": 0,
     "cover_hash": "42f5d968329b5f41eb3aecef369412815097510f32764aeb50d4439d4f0e4beb",
@@ -6852,6 +7257,81 @@
       66,
       55,
       48
+    ]
+  },
+  {
+    "id": 1130,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Fire in the flesh",
+    "series": "Flesh and Fire",
+    "series_index": 3.0,
+    "cover_path": "covers/1130.jpg",
+    "is_read": 0,
+    "cover_hash": "9ff82d59b3d98b6d4e3fa344b0f3961c38113c0230d0f155369875950ebae158",
+    "cover_color": [
+      64,
+      50,
+      49
+    ]
+  },
+  {
+    "id": 1165,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Light in the Flame",
+    "series": "Flesh and Fire",
+    "series_index": 2.0,
+    "cover_path": "covers/1165.jpg",
+    "is_read": 0,
+    "cover_hash": "8ea1cdc8c671e1bf1160671692a4bd165a7c29a8bb3ff92976880ac2b53747c2",
+    "cover_color": [
+      56,
+      53,
+      49
+    ]
+  },
+  {
+    "id": 1272,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Light in the Flame",
+    "series": "Flesh and Fire",
+    "series_index": 2.0,
+    "cover_path": "covers/1272.jpg",
+    "is_read": 0,
+    "cover_hash": "8ea1cdc8c671e1bf1160671692a4bd165a7c29a8bb3ff92976880ac2b53747c2",
+    "cover_color": [
+      56,
+      53,
+      49
+    ]
+  },
+  {
+    "id": 1164,
+    "author": "Jennifer L. Armentrout",
+    "title": "A Shadow in the Ember",
+    "series": "Flesh and Fire",
+    "series_index": 1.0,
+    "cover_path": "covers/1164.jpg",
+    "is_read": 0,
+    "cover_hash": "81af7ab3c82266acf76a39493db2da6ee14b2e7e1e129daecdb8c9ff3d898631",
+    "cover_color": [
+      92,
+      71,
+      69
+    ]
+  },
+  {
+    "id": 1160,
+    "author": "Jennifer L. Armentrout",
+    "title": "Born of Blood and Ash",
+    "series": "Flesh and Fire",
+    "series_index": 4.0,
+    "cover_path": "covers/1160.jpg",
+    "is_read": 0,
+    "cover_hash": "519d2afb78374193be7eeeb6762fb220b6e48e0e36f1db13d82f1c7b71897956",
+    "cover_color": [
+      112,
+      103,
+      92
     ]
   },
   {
@@ -6867,6 +7347,21 @@
       175,
       125,
       81
+    ]
+  },
+  {
+    "id": 1242,
+    "author": "Jennifer Lynn Barnes",
+    "title": "De miljoenenstrijd",
+    "series": "De Miljoenenstrijd",
+    "series_index": 1.0,
+    "cover_path": "covers/1242.jpg",
+    "is_read": 0,
+    "cover_hash": "ceac8afdc62a869e1b65f27bb115ade73733358134905bdbb5343bd874fb63fb",
+    "cover_color": [
+      45,
+      44,
+      50
     ]
   },
   {
@@ -7050,6 +7545,21 @@
     ]
   },
   {
+    "id": 1244,
+    "author": "Jenny Colgan",
+    "title": "De kleine bakkerij aan het strand",
+    "series": "De kleine bakkerij aan het strand",
+    "series_index": 1.0,
+    "cover_path": "covers/1244.jpg",
+    "is_read": 0,
+    "cover_hash": "16825a0bebe3fc47c1aa581f333d10a104df5309fa5c95f722b2408708ea93ac",
+    "cover_color": [
+      211,
+      194,
+      193
+    ]
+  },
+  {
     "id": 727,
     "author": "Jenny Colgan",
     "title": "Een nieuwe zomer in de kleine bakkerij",
@@ -7140,6 +7650,36 @@
     ]
   },
   {
+    "id": 1237,
+    "author": "Jenny Colgan",
+    "title": "Op goed geluk",
+    "series": "Kirrinfief (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1237.jpg",
+    "is_read": 0,
+    "cover_hash": "3e08fc96378f7cb7267cdaec37c912211c9f8681c7a745a92162bb6b6f9006f3",
+    "cover_color": [
+      194,
+      191,
+      187
+    ]
+  },
+  {
+    "id": 1177,
+    "author": "Jenny Colgan",
+    "title": "Zoek de zon op",
+    "series": "Kirrinfief (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1177.jpg",
+    "is_read": 0,
+    "cover_hash": "e6e5785c8565495b0b81d05f51581281807958e47faa5c59c7e94f63a24af6cd",
+    "cover_color": [
+      200,
+      201,
+      183
+    ]
+  },
+  {
     "id": 367,
     "author": "Jenny Colgan",
     "title": "Lessons at the School by the Sea",
@@ -7182,6 +7722,36 @@
       127,
       159,
       180
+    ]
+  },
+  {
+    "id": 1243,
+    "author": "Jenny Colgan",
+    "title": "De kerstboekwinkel",
+    "series": "The Christmas Bookshop (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1243.jpg",
+    "is_read": 0,
+    "cover_hash": "3d3c7b91d98526732cdb73add770523ae197b55ce55d18de83f9273f061eb471",
+    "cover_color": [
+      50,
+      141,
+      186
+    ]
+  },
+  {
+    "id": 1223,
+    "author": "Jenny Colgan",
+    "title": "Middernacht in de kerstboekwinkel",
+    "series": "The Christmas Bookshop (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1223.jpg",
+    "is_read": 0,
+    "cover_hash": "b6350ebad4640ca26f759004d21f5dbbf853b5389c02da7c84b384e3519d76cc",
+    "cover_color": [
+      114,
+      75,
+      106
     ]
   },
   {
@@ -7287,6 +7857,21 @@
       159,
       131,
       123
+    ]
+  },
+  {
+    "id": 1185,
+    "author": "Jesse Q. Sutanto",
+    "title": "Vera Wong's Unsolicited Advice for Murderers",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1185.jpg",
+    "is_read": 0,
+    "cover_hash": "4a3784cc8e973afca2fa6ac0039ca0de77cd09e70d1555d5f5fc7249e43502e7",
+    "cover_color": [
+      89,
+      76,
+      95
     ]
   },
   {
@@ -8115,6 +8700,21 @@
     ]
   },
   {
+    "id": 1252,
+    "author": "Katherine Webber",
+    "title": "Captain of Fates",
+    "series": "Twin Crowns",
+    "series_index": 4.0,
+    "cover_path": "covers/1252.jpg",
+    "is_read": 0,
+    "cover_hash": "dff21c069e32d3d1ece213d7e79f4a7dc89af4d5b8899aa0242c4f83cc630147",
+    "cover_color": [
+      134,
+      108,
+      129
+    ]
+  },
+  {
     "id": 515,
     "author": "Kayla Edwards",
     "title": "City of Lies and Legends (House of Devils Book 3)",
@@ -8640,6 +9240,21 @@
     ]
   },
   {
+    "id": 1178,
+    "author": "Lara Taveirne",
+    "title": "Wolf",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1178.jpg",
+    "is_read": 0,
+    "cover_hash": "4c041458d5ac56040ab65abafa66e3a0711d7c5d3c1b1bd012a5ff408ec498cc",
+    "cover_color": [
+      56,
+      71,
+      82
+    ]
+  },
+  {
     "id": 132,
     "author": "Larry McMurtry",
     "title": "LD01 - Lonesome Dove",
@@ -8820,21 +9435,6 @@
     ]
   },
   {
-    "id": 1169,
-    "author": "Leigh Bardugo",
-    "title": "Duivelsvlucht",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1169.jpg",
-    "is_read": 0,
-    "cover_hash": "91fb4b7b27208dcbf3629ece3c757e76cf7766047957b77c9c6536f5a0ff33f8",
-    "cover_color": [
-      41,
-      34,
-      28
-    ]
-  },
-  {
     "id": 694,
     "author": "Leigh Bardugo",
     "title": "Het negende huis",
@@ -8877,6 +9477,36 @@
       36,
       36,
       35
+    ]
+  },
+  {
+    "id": 1169,
+    "author": "Leigh Bardugo",
+    "title": "Duivelsvlucht",
+    "series": "Alex Stern (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1169.jpg",
+    "is_read": 0,
+    "cover_hash": "91fb4b7b27208dcbf3629ece3c757e76cf7766047957b77c9c6536f5a0ff33f8",
+    "cover_color": [
+      41,
+      34,
+      28
+    ]
+  },
+  {
+    "id": 1168,
+    "author": "Leigh Bardugo",
+    "title": "Het negende huis",
+    "series": "Alex Stern (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1168.jpg",
+    "is_read": 0,
+    "cover_hash": "7b2a5157383ca2fb94beb55f9dca5770444b242649e8beb7496126d264fdc523",
+    "cover_color": [
+      71,
+      51,
+      42
     ]
   },
   {
@@ -9720,6 +10350,21 @@
     ]
   },
   {
+    "id": 1201,
+    "author": "Lucy Foley",
+    "title": "The Guest List",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1201.jpg",
+    "is_read": 0,
+    "cover_hash": "e4f9edac8dfff55b0c06936c52e6aa1125f8a6b26ece888f8c88c8e7e5f458d1",
+    "cover_color": [
+      230,
+      220,
+      215
+    ]
+  },
+  {
     "id": 352,
     "author": "Lucy Maud Montgomery",
     "title": "Anne of Avonlea",
@@ -10065,6 +10710,21 @@
     ]
   },
   {
+    "id": 1255,
+    "author": "Maggie Nelson",
+    "title": "Bluets",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1255.jpg",
+    "is_read": 0,
+    "cover_hash": "902945a70e35ff34b42f4df2607ce12e8037f2ff385667368b179d772447adcc",
+    "cover_color": [
+      33,
+      84,
+      138
+    ]
+  },
+  {
     "id": 1150,
     "author": "Malinda Lo",
     "title": "Last Night at the Telegraph Club",
@@ -10322,7 +10982,7 @@
   {
     "id": 1114,
     "author": "Mark Lawrence",
-    "title": "The Library Trilogy 1 - The Book That Wouldn't Burn",
+    "title": "The Book That Wouldn't Burn",
     "series": "The Library Trilogy",
     "series_index": 1.0,
     "cover_path": "covers/1114.jpg",
@@ -11026,7 +11686,7 @@
   },
   {
     "id": 1157,
-    "author": "Michelle Zauner;",
+    "author": "Michelle Zauner",
     "title": "Crying in H Mart",
     "series": "",
     "series_index": 1.0,
@@ -11175,6 +11835,126 @@
     ]
   },
   {
+    "id": 1235,
+    "author": "Morgan Rice",
+    "title": "Hero, Traitor, Daughter",
+    "series": "Of Crowns and Glory",
+    "series_index": 6.0,
+    "cover_path": "covers/1235.jpg",
+    "is_read": 0,
+    "cover_hash": "6768a94450a2e474aecbd8d8cc42b666afde15cd92bd0901e4df6a26bb180fe1",
+    "cover_color": [
+      67,
+      63,
+      56
+    ]
+  },
+  {
+    "id": 1228,
+    "author": "Morgan Rice",
+    "title": "Knight, Heir, Prince (Of Crowns and Glory—Book 3)",
+    "series": "Of Crowns and Glory",
+    "series_index": 3.0,
+    "cover_path": "covers/1228.jpg",
+    "is_read": 0,
+    "cover_hash": "6db0659bc370e34d3155ee07a1ccc4c943a34dac858eb7a8a7262eee1d6dfd05",
+    "cover_color": [
+      71,
+      85,
+      82
+    ]
+  },
+  {
+    "id": 1217,
+    "author": "Morgan Rice",
+    "title": "Rebel, Pawn, King",
+    "series": "Of Crowns and Glory",
+    "series_index": 4.0,
+    "cover_path": "covers/1217.jpg",
+    "is_read": 0,
+    "cover_hash": "a8994e3d040b49f40d63eb2d0409cff4295c8ab9c2108bc489a62afc3db95208",
+    "cover_color": [
+      86,
+      84,
+      88
+    ]
+  },
+  {
+    "id": 1214,
+    "author": "Morgan Rice",
+    "title": "Rogue, Prisoner, Princess (Of Crowns and Glory—Book 2)",
+    "series": "Of Crowns and Glory",
+    "series_index": 2.0,
+    "cover_path": "covers/1214.jpg",
+    "is_read": 0,
+    "cover_hash": "9896172f755566625970af512de4a3e50261019104409395a233388d46a54b79",
+    "cover_color": [
+      81,
+      115,
+      148
+    ]
+  },
+  {
+    "id": 1212,
+    "author": "Morgan Rice",
+    "title": "Ruler, Rival, Exile (Of Crowns and Glory—Book 7)",
+    "series": "Of Crowns and Glory",
+    "series_index": 7.0,
+    "cover_path": "covers/1212.jpg",
+    "is_read": 0,
+    "cover_hash": "9db25b6741c6dec086a38d0e919f93f594fb4e788cc69c2544db4cbc17520559",
+    "cover_color": [
+      119,
+      96,
+      58
+    ]
+  },
+  {
+    "id": 1208,
+    "author": "Morgan Rice",
+    "title": "Slave, Warrior, Queen (Of Crowns and Glory—Book 1)",
+    "series": "Of Crowns and Glory",
+    "series_index": 1.0,
+    "cover_path": "covers/1208.jpg",
+    "is_read": 0,
+    "cover_hash": "b06d99745427faaa48e0080ca65ba41799dc46657b40efb8d7b94c8c07ada2b4",
+    "cover_color": [
+      150,
+      130,
+      116
+    ]
+  },
+  {
+    "id": 1209,
+    "author": "Morgan Rice",
+    "title": "Soldier, Brother, Sorcerer (Of Crowns and Glory—Book 5)",
+    "series": "Of Crowns and Glory",
+    "series_index": 5.0,
+    "cover_path": "covers/1209.jpg",
+    "is_read": 0,
+    "cover_hash": "7e83396db698f7710b5d5df48eb03d9033f2cadd5080e19ce6dd4ad5693144c3",
+    "cover_color": [
+      150,
+      142,
+      126
+    ]
+  },
+  {
+    "id": 1183,
+    "author": "Morgan Rice",
+    "title": "Victor, Vanquished, Son (Of Crowns and Glory—Book 8)",
+    "series": "Of Crowns and Glory",
+    "series_index": 8.0,
+    "cover_path": "covers/1183.jpg",
+    "is_read": 0,
+    "cover_hash": "04f10436fa8750057ec5f634b77229d9c94670672908a6f20c7635667813ff5a",
+    "cover_color": [
+      123,
+      118,
+      96
+    ]
+  },
+  {
     "id": 400,
     "author": "Mélissa Da Costa",
     "title": "Al het blauw van de hemel",
@@ -11202,6 +11982,36 @@
       140,
       150,
       102
+    ]
+  },
+  {
+    "id": 1251,
+    "author": "N. K. Jemisin",
+    "title": "De Obeliskpoort",
+    "series": "De gebroken aarde",
+    "series_index": 2.0,
+    "cover_path": "covers/1251.jpg",
+    "is_read": 0,
+    "cover_hash": "790e068e89c2ffdbaf1015a66543c89e3f36da16895e89b963c9a60761ab0159",
+    "cover_color": [
+      116,
+      87,
+      101
+    ]
+  },
+  {
+    "id": 1250,
+    "author": "N. K. Jemisin",
+    "title": "Het vijfde seizoen",
+    "series": "De gebroken aarde",
+    "series_index": 1.0,
+    "cover_path": "covers/1250.jpg",
+    "is_read": 0,
+    "cover_hash": "89077ca2dd7f9ca4f066009ada3aa25650e44a4a7a4c72ca3ce7fdcbdb5234a7",
+    "cover_color": [
+      81,
+      89,
+      82
     ]
   },
   {
@@ -11247,6 +12057,21 @@
       52,
       85,
       71
+    ]
+  },
+  {
+    "id": 1249,
+    "author": "N.K. Jemisin",
+    "title": "De Stenen Hemel",
+    "series": "De gebroken aarde",
+    "series_index": 3.0,
+    "cover_path": "covers/1249.jpg",
+    "is_read": 0,
+    "cover_hash": "c7b3681d1c13174549fa5aebf6cd9974b0bdc41c95bf4728c9a6f06df4526ce1",
+    "cover_color": [
+      39,
+      69,
+      66
     ]
   },
   {
@@ -11427,6 +12252,66 @@
       212,
       150,
       109
+    ]
+  },
+  {
+    "id": 1238,
+    "author": "Nisha J. Tuli",
+    "title": "Fate of the Sun King",
+    "series": "Artefacts of Ouranos",
+    "series_index": 3.0,
+    "cover_path": "covers/1238.jpg",
+    "is_read": 0,
+    "cover_hash": "2cec321f5e79a76215063c8da266b7411f0cb96c87e65f02d03761c4ce6bc775",
+    "cover_color": [
+      30,
+      63,
+      93
+    ]
+  },
+  {
+    "id": 1207,
+    "author": "Nisha J. Tuli",
+    "title": "Tale of the Heart Queen (Artefacts of Ouranos)",
+    "series": "Artefacts of Ouranos",
+    "series_index": 4.0,
+    "cover_path": "covers/1207.jpg",
+    "is_read": 0,
+    "cover_hash": "00f851133ffec08da310848819399e7f6e0f6d0c5378966140c957cf94cc2425",
+    "cover_color": [
+      131,
+      45,
+      44
+    ]
+  },
+  {
+    "id": 1186,
+    "author": "Nisha J. Tuli",
+    "title": "Dance of Stars and Ashes: An enemies to lovers fantasy romance (The Nightfire Quartet Book 2)",
+    "series": "The Nightfire Quartet",
+    "series_index": 2.0,
+    "cover_path": "covers/1186.jpg",
+    "is_read": 0,
+    "cover_hash": "42af9a38b79f543ca92da5f1ee73041139d96ae0aa63550cf8957b334b8b71a6",
+    "cover_color": [
+      94,
+      50,
+      107
+    ]
+  },
+  {
+    "id": 1188,
+    "author": "Nisha J. Tuli",
+    "title": "Heart of Night and Fire: An absolutely addictive slow burn fantasy romance (The Nightfire Quartet Book 1)",
+    "series": "The Nightfire Quartet",
+    "series_index": 1.0,
+    "cover_path": "covers/1188.jpg",
+    "is_read": 0,
+    "cover_hash": "82b59059fc3548e0c84be8f1b7edc7a5c6cce482ed323ac6b8d328d92dac6032",
+    "cover_color": [
+      187,
+      76,
+      48
     ]
   },
   {
@@ -11682,6 +12567,21 @@
       154,
       157,
       154
+    ]
+  },
+  {
+    "id": 1198,
+    "author": "Oscar Wilde",
+    "title": "The picture of Dorian Grey",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1198.jpg",
+    "is_read": 0,
+    "cover_hash": "12fb86a925312fd5a785fed744b3defa5fcb2a99f199fa88ea6e83b0826552e5",
+    "cover_color": [
+      62,
+      77,
+      77
     ]
   },
   {
@@ -12195,6 +13095,21 @@
     ]
   },
   {
+    "id": 1170,
+    "author": "R. F. Kuang",
+    "title": "The Burning God",
+    "series": "The Poppy War",
+    "series_index": 3.0,
+    "cover_path": "covers/1170.jpg",
+    "is_read": 0,
+    "cover_hash": "0a0fb8a930e2fbe3b05be16e657e956f3ced3b6efeb5394ecf0fe76816490663",
+    "cover_color": [
+      224,
+      223,
+      225
+    ]
+  },
+  {
     "id": 54,
     "author": "R. F. Kuang",
     "title": "The Dragon Republic",
@@ -12270,6 +13185,21 @@
     ]
   },
   {
+    "id": 1187,
+    "author": "Rachel Gillig",
+    "title": "Twee verstrengelde kronen",
+    "series": "The Shepherd King",
+    "series_index": 2.0,
+    "cover_path": "covers/1187.jpg",
+    "is_read": 0,
+    "cover_hash": "cd902e4ef095cdf79c7043db31a9fa7df507ccb1ff212368fc37da261d19f166",
+    "cover_color": [
+      142,
+      149,
+      148
+    ]
+  },
+  {
     "id": 19,
     "author": "Rachel Gillig",
     "title": "Two Twisted Crowns",
@@ -12282,6 +13212,21 @@
       136,
       145,
       145
+    ]
+  },
+  {
+    "id": 1239,
+    "author": "Rachel Gillig",
+    "title": "Een duister venster",
+    "series": "The Shepherd King (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1239.jpg",
+    "is_read": 0,
+    "cover_hash": "471b51bfe894990930611fb9a1da6776c8f64d65132674966c4a7414f48d18f8",
+    "cover_color": [
+      89,
+      104,
+      93
     ]
   },
   {
@@ -12642,6 +13587,21 @@
       171,
       174,
       178
+    ]
+  },
+  {
+    "id": 1203,
+    "author": "Riley Sager",
+    "title": "The Only One Left: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1203.jpg",
+    "is_read": 0,
+    "cover_hash": "cc44015cc215aa93126d1bf1ae07775a32ebcd4140f0171030c400e6224afafe",
+    "cover_color": [
+      65,
+      36,
+      74
     ]
   },
   {
@@ -13665,6 +14625,21 @@
     ]
   },
   {
+    "id": 1175,
+    "author": "Sarah A. Parker",
+    "title": "When the Moon Hatched (The Moonfall Series Book 1)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1175.jpg",
+    "is_read": 0,
+    "cover_hash": "87131034d7c31efe1cd334ea94f6cc33e54fbe4427037202cc2d998033b76cf0",
+    "cover_color": [
+      70,
+      71,
+      71
+    ]
+  },
+  {
     "id": 502,
     "author": "Sarah A. Parker",
     "title": "Crystal Bloom 1 - To Bleed a Crystal Bloom",
@@ -13710,6 +14685,21 @@
     ]
   },
   {
+    "id": 1269,
+    "author": "Sarah A. Parker",
+    "title": "When the Moon Hatched (The Moonfall Series Book 1)",
+    "series": "Moonfall",
+    "series_index": 1.0,
+    "cover_path": "covers/1269.jpg",
+    "is_read": 0,
+    "cover_hash": "87131034d7c31efe1cd334ea94f6cc33e54fbe4427037202cc2d998033b76cf0",
+    "cover_color": [
+      70,
+      71,
+      71
+    ]
+  },
+  {
     "id": 608,
     "author": "Sarah Addison Allen",
     "title": "Other Birds",
@@ -13722,6 +14712,36 @@
       16,
       68,
       65
+    ]
+  },
+  {
+    "id": 1202,
+    "author": "Sarah Beth Durst",
+    "title": "The Enchanted Greenhouse",
+    "series": "Spellshop",
+    "series_index": 2.0,
+    "cover_path": "covers/1202.jpg",
+    "is_read": 0,
+    "cover_hash": "31c382fa19be8883aa61100ef011dbe9227d9d2e136ed3ee31336f1dbf64b457",
+    "cover_color": [
+      111,
+      94,
+      99
+    ]
+  },
+  {
+    "id": 1193,
+    "author": "Sarah Beth Durst",
+    "title": "The Spellshop",
+    "series": "Spellshop",
+    "series_index": 1.0,
+    "cover_path": "covers/1193.jpg",
+    "is_read": 0,
+    "cover_hash": "8344f00efd326759ba83f9a5af5c63097557c9cef2131a4f37e6f0075b89d204",
+    "cover_color": [
+      139,
+      103,
+      53
     ]
   },
   {
@@ -14145,6 +15165,21 @@
     ]
   },
   {
+    "id": 1254,
+    "author": "Shannon Chakraborty",
+    "title": "De avonturen van Amina al-Sirafi",
+    "series": "Amina al-Sirafi (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1254.jpg",
+    "is_read": 0,
+    "cover_hash": "24d2dbd514ea4fe31769224c56ce093cf76138522804353c9c2bbe5ce0df62a3",
+    "cover_color": [
+      50,
+      36,
+      31
+    ]
+  },
+  {
     "id": 922,
     "author": "Shauna Lawless",
     "title": "Dreams of Fire",
@@ -14322,6 +15357,96 @@
       32,
       71,
       122
+    ]
+  },
+  {
+    "id": 1199,
+    "author": "Soman Chainani",
+    "title": "A World without Princes",
+    "series": "The School for Good and Evil",
+    "series_index": 2.0,
+    "cover_path": "covers/1199.jpg",
+    "is_read": 0,
+    "cover_hash": "85457df58e97833c1e7f65dd3cdb87a651aefdd5de8b6803e653aff9127f9af0",
+    "cover_color": [
+      108,
+      109,
+      123
+    ]
+  },
+  {
+    "id": 1196,
+    "author": "Soman Chainani",
+    "title": "Quests for Glory",
+    "series": "The School for Good and Evil",
+    "series_index": 4.0,
+    "cover_path": "covers/1196.jpg",
+    "is_read": 0,
+    "cover_hash": "c00ea14c19c2081da665fa67c2be99b76bf00f7878d83409a721adbcffe65553",
+    "cover_color": [
+      124,
+      116,
+      113
+    ]
+  },
+  {
+    "id": 1197,
+    "author": "Soman Chainani",
+    "title": "The Last Ever After",
+    "series": "The School for Good and Evil",
+    "series_index": 3.0,
+    "cover_path": "covers/1197.jpg",
+    "is_read": 0,
+    "cover_hash": "d0d7489b3472ef32f89335fa6d001d85bd8170039d96449a500467bb9125d671",
+    "cover_color": [
+      103,
+      107,
+      94
+    ]
+  },
+  {
+    "id": 1200,
+    "author": "Soman Chainani",
+    "title": "The School for Good and Evil",
+    "series": "The School for Good and Evil",
+    "series_index": 1.0,
+    "cover_path": "covers/1200.jpg",
+    "is_read": 0,
+    "cover_hash": "c5d16aff0754c75b270e3ede06977ae11491cbefbb9983497578bdcfd479c1cf",
+    "cover_color": [
+      92,
+      99,
+      112
+    ]
+  },
+  {
+    "id": 1194,
+    "author": "Soman Chainani",
+    "title": "The School for Good and Evil #5: A Crystal of Time",
+    "series": "The School for Good and Evil",
+    "series_index": 5.0,
+    "cover_path": "covers/1194.jpg",
+    "is_read": 0,
+    "cover_hash": "89a69c4e56882d462152bce2e4f1c34d2295a9f98a90ec4d50be6c36049d8351",
+    "cover_color": [
+      120,
+      134,
+      159
+    ]
+  },
+  {
+    "id": 1195,
+    "author": "Soman Chainani",
+    "title": "The School for Good and Evil #6: One True King",
+    "series": "The School for Good and Evil",
+    "series_index": 6.0,
+    "cover_path": "covers/1195.jpg",
+    "is_read": 0,
+    "cover_hash": "398073dccbd765f0624c9a56b9e8a15708c8bbc45dddbb931be44ac41957b837",
+    "cover_color": [
+      119,
+      110,
+      109
     ]
   },
   {
@@ -14625,6 +15750,21 @@
     ]
   },
   {
+    "id": 1240,
+    "author": "Stephen King",
+    "title": "Fairy Tale",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1240.jpg",
+    "is_read": 0,
+    "cover_hash": "aff60801540a046ac04791196a0416ca26e17a1b4d698541ea12d70d67112a2b",
+    "cover_color": [
+      63,
+      87,
+      91
+    ]
+  },
+  {
     "id": 32,
     "author": "Stephen King",
     "title": "The Stand",
@@ -14910,6 +16050,81 @@
     ]
   },
   {
+    "id": 1253,
+    "author": "Suzanne Collins",
+    "title": "Dageraad boven de boete",
+    "series": "De Hongerspelen",
+    "series_index": 0.5,
+    "cover_path": "covers/1253.jpg",
+    "is_read": 0,
+    "cover_hash": "337b8cfb944f7f5ab65819ede48b40150ccd90e3cc38c29274c42e1c3eacb865",
+    "cover_color": [
+      103,
+      70,
+      80
+    ]
+  },
+  {
+    "id": 1248,
+    "author": "Suzanne Collins",
+    "title": "De ballade van slangen en zangvogels",
+    "series": "Hongerspelen",
+    "series_index": 0.0,
+    "cover_path": "covers/1248.jpg",
+    "is_read": 0,
+    "cover_hash": "5400a1562ad92dbda2320d900db5d528f6fb8c784d05d2bcb4a11f0bb531ce81",
+    "cover_color": [
+      69,
+      78,
+      53
+    ]
+  },
+  {
+    "id": 1247,
+    "author": "Suzanne Collins",
+    "title": "Hongerspelen",
+    "series": "Hongerspelen",
+    "series_index": 1.0,
+    "cover_path": "covers/1247.jpg",
+    "is_read": 0,
+    "cover_hash": "4e7a93804739b755a9371da3929943dcb5ded1981a76733d2f5179d37e87f0fc",
+    "cover_color": [
+      69,
+      65,
+      69
+    ]
+  },
+  {
+    "id": 1245,
+    "author": "Suzanne Collins",
+    "title": "Spotgaai",
+    "series": "Hongerspelen",
+    "series_index": 3.0,
+    "cover_path": "covers/1245.jpg",
+    "is_read": 0,
+    "cover_hash": "e1cf0a9e24cff5f8be614279d6e0e37c2b15a18159fe099ace0f6b59871357a3",
+    "cover_color": [
+      130,
+      141,
+      168
+    ]
+  },
+  {
+    "id": 1246,
+    "author": "Suzanne Collins",
+    "title": "Vlammen",
+    "series": "Hongerspelen",
+    "series_index": 2.0,
+    "cover_path": "covers/1246.jpg",
+    "is_read": 0,
+    "cover_hash": "b908c69469383cf1410410502c3b680e8c8dfbc197b6a400b30ec5c2971de28d",
+    "cover_color": [
+      164,
+      63,
+      32
+    ]
+  },
+  {
     "id": 235,
     "author": "Suzanne Collins",
     "title": "Catching Fire (The Hunger Games, Book 2)",
@@ -15045,6 +16260,66 @@
     ]
   },
   {
+    "id": 1230,
+    "author": "T. Kingfisher",
+    "title": "A Sorceress Comes to Call",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1230.jpg",
+    "is_read": 0,
+    "cover_hash": "7e348be6ac23a0cf5133052cb900452bd7d0f434028ebf1d4b2a7ad7276221c5",
+    "cover_color": [
+      69,
+      60,
+      54
+    ]
+  },
+  {
+    "id": 1264,
+    "author": "T. Kingfisher",
+    "title": "A Wizard's Guide to Defensive Baking",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1264.jpg",
+    "is_read": 0,
+    "cover_hash": "7907e3bc0558c1b69cc75762aa3c5e97f78aa67d5ec48379a21ae70bfebc2533",
+    "cover_color": [
+      77,
+      56,
+      68
+    ]
+  },
+  {
+    "id": 1221,
+    "author": "T. Kingfisher",
+    "title": "Nettle & Bone",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1221.jpg",
+    "is_read": 0,
+    "cover_hash": "3f8379ebed3bd3ace2888751bb41884a8f48e4bed55afd39e82f5d140ff0f1c4",
+    "cover_color": [
+      42,
+      43,
+      38
+    ]
+  },
+  {
+    "id": 1171,
+    "author": "TJ Klune",
+    "title": "Het gefluister achter de deur",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1171.jpg",
+    "is_read": 0,
+    "cover_hash": "009a9f791cc3e7b33c70a7534cfedb868b05ecbca89fdc489958194fb8ee0020",
+    "cover_color": [
+      107,
+      140,
+      127
+    ]
+  },
+  {
     "id": 600,
     "author": "TJ Klune",
     "title": "The Bones Beneath My Skin",
@@ -15060,21 +16335,6 @@
     ]
   },
   {
-    "id": 275,
-    "author": "TJ Klune",
-    "title": "The House in the Cerulean Sea",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/275.jpg",
-    "is_read": 0,
-    "cover_hash": "98feafb18f77907e36449ca854fc4ac5b53111ffe8bd65808da7bdb441abd360",
-    "cover_color": [
-      124,
-      138,
-      131
-    ]
-  },
-  {
     "id": 817,
     "author": "TJ Klune",
     "title": "Under the Whispering Door",
@@ -15087,6 +16347,51 @@
       74,
       137,
       123
+    ]
+  },
+  {
+    "id": 1173,
+    "author": "TJ Klune",
+    "title": "Somewhere Beyond the Sea",
+    "series": "Cerulean Chronicles",
+    "series_index": 2.0,
+    "cover_path": "covers/1173.jpg",
+    "is_read": 0,
+    "cover_hash": "33261a50b03da41764e21596b5d54f34b502af5e02f257204b45a7b3c3b4d830",
+    "cover_color": [
+      78,
+      74,
+      60
+    ]
+  },
+  {
+    "id": 275,
+    "author": "TJ Klune",
+    "title": "The House in the Cerulean Sea",
+    "series": "Cerulean Chronicles",
+    "series_index": 1.0,
+    "cover_path": "covers/275.jpg",
+    "is_read": 1,
+    "cover_hash": "98feafb18f77907e36449ca854fc4ac5b53111ffe8bd65808da7bdb441abd360",
+    "cover_color": [
+      124,
+      138,
+      131
+    ]
+  },
+  {
+    "id": 1172,
+    "author": "TJ Klune",
+    "title": "Het weeshuis in de azuurblauwe zee",
+    "series": "Cerulean Chronicles (NL)",
+    "series_index": 1.0,
+    "cover_path": "covers/1172.jpg",
+    "is_read": 1,
+    "cover_hash": "e5d3cec3c46dfa3fb955ae2cffa97b907d1c78047ec686acf115d8adf5e1c087",
+    "cover_color": [
+      122,
+      126,
+      118
     ]
   },
   {
@@ -15270,6 +16575,81 @@
     ]
   },
   {
+    "id": 1139,
+    "author": "Talia Hibbert",
+    "title": "Take a Hint, Dani Brown",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1139.jpg",
+    "is_read": 0,
+    "cover_hash": "f25bda93bb34134c23c247dfe06406451a7b5c2c73c739af2ef437a6fb44a723",
+    "cover_color": [
+      216,
+      204,
+      103
+    ]
+  },
+  {
+    "id": 1261,
+    "author": "Tamora Pierce",
+    "title": "Song Of The Lioness Quartet 01 - Alanna: The First Adventure",
+    "series": "Song of the Lioness Quartet",
+    "series_index": 1.0,
+    "cover_path": "covers/1261.jpg",
+    "is_read": 0,
+    "cover_hash": "20e371b2c36ca690eb1d0c882cdce336410c61901d538dd672290b8e94710737",
+    "cover_color": [
+      69,
+      55,
+      66
+    ]
+  },
+  {
+    "id": 1231,
+    "author": "Tamora Pierce",
+    "title": "Song Of The Lioness Quartet 02 - In the Hand of the Goddess",
+    "series": "Song of the Lioness Quartet",
+    "series_index": 2.0,
+    "cover_path": "covers/1231.jpg",
+    "is_read": 0,
+    "cover_hash": "1bbdf62c5549b16a1175f3d0d7d6aed338d76864c94c0449d9b30c4075465cbc",
+    "cover_color": [
+      77,
+      68,
+      57
+    ]
+  },
+  {
+    "id": 1190,
+    "author": "Tamora Pierce",
+    "title": "Song Of The Lioness Quartet 03 - The Woman Who Rides Like A Man",
+    "series": "Song of the Lioness Quartet",
+    "series_index": 3.0,
+    "cover_path": "covers/1190.jpg",
+    "is_read": 0,
+    "cover_hash": "b9e8b09e5cc8b55428ba0c512f1dc80b1b91d9ff5689edb5a41836eea45581fb",
+    "cover_color": [
+      72,
+      64,
+      67
+    ]
+  },
+  {
+    "id": 1226,
+    "author": "Tamora Pierce",
+    "title": "The Song Of The Lioness Quartet 04 - Lioness Rampant",
+    "series": "Song of the Lioness Quartet",
+    "series_index": 4.0,
+    "cover_path": "covers/1226.jpg",
+    "is_read": 0,
+    "cover_hash": "6c5a0664c1f07654f4ae5afa84d41e11849e3511ee0c023a7e450013f4a31a1b",
+    "cover_color": [
+      91,
+      64,
+      54
+    ]
+  },
+  {
     "id": 1129,
     "author": "Tara Westover",
     "title": "Educated",
@@ -15360,6 +16740,36 @@
     ]
   },
   {
+    "id": 1236,
+    "author": "Taylor Jenkins Reid",
+    "title": "Forever, Interrupted",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1236.jpg",
+    "is_read": 0,
+    "cover_hash": "dc3a6aef30ecffcc9d72ccdd8cfaac58d08ad2b7f6441924096d4b706e6c8a80",
+    "cover_color": [
+      54,
+      99,
+      121
+    ]
+  },
+  {
+    "id": 1271,
+    "author": "Taylor Jenkins Reid",
+    "title": "Forever, Interrupted",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1271.jpg",
+    "is_read": 0,
+    "cover_hash": "c65e024031c8457d18322e26f710c5715461a0ef5f502afb05285450112c7706",
+    "cover_color": [
+      26,
+      77,
+      71
+    ]
+  },
+  {
     "id": 307,
     "author": "Taylor Jenkins Reid",
     "title": "Malibu Rising",
@@ -15390,21 +16800,6 @@
     ]
   },
   {
-    "id": 1148,
-    "author": "Taylor Jenkins Reid",
-    "title": "Maybe in Another Life",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1148.jpg",
-    "is_read": 0,
-    "cover_hash": "fae4a71bb9b7b035d82d1a761517024a766a9e348b10fcc6dbd180cc8865a48b",
-    "cover_color": [
-      221,
-      155,
-      96
-    ]
-  },
-  {
     "id": 1167,
     "author": "Taylor Jenkins Reid",
     "title": "Maybe in Another Life",
@@ -15417,6 +16812,51 @@
       142,
       185,
       180
+    ]
+  },
+  {
+    "id": 1148,
+    "author": "Taylor Jenkins Reid",
+    "title": "Maybe in Another Life (nl)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1148.jpg",
+    "is_read": 0,
+    "cover_hash": "fae4a71bb9b7b035d82d1a761517024a766a9e348b10fcc6dbd180cc8865a48b",
+    "cover_color": [
+      221,
+      155,
+      96
+    ]
+  },
+  {
+    "id": 1218,
+    "author": "Taylor Jenkins Reid",
+    "title": "One True Loves",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1218.jpg",
+    "is_read": 0,
+    "cover_hash": "ca1d37ba5af3b458c820d33ca65adcc09189966fb3769c1cb7ec25b668b319dc",
+    "cover_color": [
+      139,
+      159,
+      146
+    ]
+  },
+  {
+    "id": 1270,
+    "author": "Taylor Jenkins Reid",
+    "title": "One true loves (nl)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1270.jpg",
+    "is_read": 0,
+    "cover_hash": "4d0ee130011a9ac0a5c429791d403fe8aaa7a73bad8157818b786ab4bd677518",
+    "cover_color": [
+      164,
+      154,
+      121
     ]
   },
   {
@@ -16410,6 +17850,36 @@
     ]
   },
   {
+    "id": 1229,
+    "author": "Tricia Levenseller",
+    "title": "Blade of Secrets",
+    "series": "Bladesmith",
+    "series_index": 1.0,
+    "cover_path": "covers/1229.jpg",
+    "is_read": 0,
+    "cover_hash": "482c4aa170dc8e5922f33507180cd09f06ca46fe61b38390499f16b083afbdb9",
+    "cover_color": [
+      123,
+      78,
+      43
+    ]
+  },
+  {
+    "id": 1227,
+    "author": "Tricia Levenseller",
+    "title": "Bladesmith 2 - Master of Iron",
+    "series": "Bladesmith",
+    "series_index": 2.0,
+    "cover_path": "covers/1227.jpg",
+    "is_read": 0,
+    "cover_hash": "e402281e0a61f7335930019abeda1322ab0eea160a8f6f020e5e50af78f6f6f5",
+    "cover_color": [
+      36,
+      98,
+      123
+    ]
+  },
+  {
     "id": 1010,
     "author": "Ursula Kroeber Le Guin",
     "title": "The Left Hand of Darkness",
@@ -16695,6 +18165,36 @@
     ]
   },
   {
+    "id": 1179,
+    "author": "Victoria Schwab",
+    "title": "The Archived",
+    "series": "The Archived",
+    "series_index": 1.0,
+    "cover_path": "covers/1179.jpg",
+    "is_read": 0,
+    "cover_hash": "c6f1dd0a16a8d6cbba19c74844b2d7536f797b46524971bf4f977af8152aeb9c",
+    "cover_color": [
+      35,
+      54,
+      68
+    ]
+  },
+  {
+    "id": 1267,
+    "author": "Victoria Schwab",
+    "title": "The Unbound",
+    "series": "The Archived",
+    "series_index": 2.0,
+    "cover_path": "covers/1267.jpg",
+    "is_read": 0,
+    "cover_hash": "4570d5d3aed3c83bb7e3d63ec4779a74d2a0fd7bd23ff17471bf625d44623ca1",
+    "cover_color": [
+      41,
+      67,
+      64
+    ]
+  },
+  {
     "id": 338,
     "author": "Will Wight",
     "title": "Blackflame (Cradle Book 3)",
@@ -16827,6 +18327,36 @@
       85,
       116,
       141
+    ]
+  },
+  {
+    "id": 1181,
+    "author": "Will Wight",
+    "title": "The Captain (The Last Horizon Book 1)",
+    "series": "The Last Horizon",
+    "series_index": 1.0,
+    "cover_path": "covers/1181.jpg",
+    "is_read": 0,
+    "cover_hash": "a0df7d33e3ebbc93cdacc7f6671100a9e361121755df13bd39fefb2d642ac0e8",
+    "cover_color": [
+      75,
+      77,
+      89
+    ]
+  },
+  {
+    "id": 1180,
+    "author": "Will Wight",
+    "title": "The Engineer (The Last Horizon Book 2)",
+    "series": "The Last Horizon",
+    "series_index": 2.0,
+    "cover_path": "covers/1180.jpg",
+    "is_read": 0,
+    "cover_hash": "40ffb0c7b3338cc676008ba88e15e82b30ffb4f9ebb9a3f6caabd243736d3b69",
+    "cover_color": [
+      80,
+      89,
+      113
     ]
   },
   {

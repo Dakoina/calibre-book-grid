@@ -80,6 +80,24 @@ for row in cursor.fetchall():
         "is_read": is_read
     })
 
+# === EXTRACT DISTINCT LANGUAGES ===
+print("\n📚 Extracting languages from Calibre library...")
+cursor.execute("""
+               SELECT DISTINCT languages.lang_code
+               FROM languages
+               ORDER BY languages.lang_code
+               """)
+
+languages = [row[0] for row in cursor.fetchall() if row[0]]
+
+# Save to languages.json
+languages_output_path = "languages.json"
+with open(languages_output_path, "w", encoding="utf-8") as f:
+    json.dump(languages, f, ensure_ascii=False, indent=2)
+
+print(f"✅ Exported {len(languages)} distinct languages to {languages_output_path}")
+print(f"   Languages found: {', '.join(languages)}")
+
 conn.close()
 
 # === PRINT TO TERMINAL ===
@@ -164,6 +182,7 @@ for book in tqdm(books, desc="Updating/resizing covers", unit="book"):
 # === SAVE UPDATED JSON ===
 with open(output_json_path, "w", encoding="utf-8") as f:
     json.dump(books, f, ensure_ascii=False, indent=2)
+
 
 # === SUMMARY LOG ===
 print("\n✅ Cover export summary:")

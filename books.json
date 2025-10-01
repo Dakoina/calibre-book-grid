@@ -150,6 +150,21 @@
     ]
   },
   {
+    "id": 1447,
+    "author": "Addison Moore",
+    "title": "Bobbing For Bodies",
+    "series": "Murder in the Mix",
+    "series_index": 2.0,
+    "cover_path": "covers/1447.webp",
+    "is_read": 0,
+    "cover_hash": "cfb258b865c24592cd6582ac9f86ea03ef180f033cc68ed25cde9dd01eab0ea9",
+    "cover_color": [
+      119,
+      61,
+      94
+    ]
+  },
+  {
     "id": 739,
     "author": "Adolfo Bioy Casares, Ruth L. C. Simms",
     "title": "The Invention of Morel",
@@ -252,6 +267,21 @@
       221,
       214,
       190
+    ]
+  },
+  {
+    "id": 1434,
+    "author": "Alexis Henderson",
+    "title": "The Year of the Witching",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1434.webp",
+    "is_read": 0,
+    "cover_hash": "9d7e1c4f391e68cd2c70f5c9866695e692a25b897f51b4269ccc158024185d36",
+    "cover_color": [
+      75,
+      76,
+      77
     ]
   },
   {
@@ -2070,6 +2100,21 @@
     ]
   },
   {
+    "id": 1454,
+    "author": "Bonnie Quinn",
+    "title": "How to Survive Camping",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1454.webp",
+    "is_read": 0,
+    "cover_hash": "ad87e337707a7795dc08ab73af81c586c1ec0b079914bd880ece330ca2b4e9e9",
+    "cover_color": [
+      104,
+      21,
+      16
+    ]
+  },
+  {
     "id": 432,
     "author": "Brandon Sanderson",
     "title": "Arcanum Unbounded",
@@ -2415,6 +2460,36 @@
     ]
   },
   {
+    "id": 1463,
+    "author": "CJ Leede",
+    "title": "Maeve Fly",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1463.webp",
+    "is_read": 0,
+    "cover_hash": "b7e847fed6d446b14fbbceed87362e54ad3251da03246869e77eaf793f1e8dfe",
+    "cover_color": [
+      106,
+      100,
+      90
+    ]
+  },
+  {
+    "id": 1438,
+    "author": "Caitlin Starling",
+    "title": "The Starving Saints",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1438.webp",
+    "is_read": 0,
+    "cover_hash": "595bf2fb0a53eb3df2307f18f0e6156b2cd01d67d77489f46e2bdac530a565e1",
+    "cover_color": [
+      69,
+      45,
+      33
+    ]
+  },
+  {
     "id": 82,
     "author": "Cal Newport",
     "title": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
@@ -2547,6 +2622,21 @@
       134,
       136,
       139
+    ]
+  },
+  {
+    "id": 1437,
+    "author": "Carissa Orlando",
+    "title": "The September House",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1437.webp",
+    "is_read": 0,
+    "cover_hash": "8be8c29acb76b64a4b832d33de364cb337e5ccaeafb62cb6845831d007f2cb9c",
+    "cover_color": [
+      130,
+      69,
+      58
     ]
   },
   {
@@ -2921,6 +3011,21 @@
     "cover_color": [
       103,
       100,
+      99
+    ]
+  },
+  {
+    "id": 1451,
+    "author": "Cassandra Khaw",
+    "title": "Nothing But Blackened Teeth",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1451.webp",
+    "is_read": 0,
+    "cover_hash": "446d97361833d35e0634c95dc8ee4a864cf5c67d4d1e1d7809146cc5a1386650",
+    "cover_color": [
+      110,
+      109,
       99
     ]
   },
@@ -3420,6 +3525,21 @@
     ]
   },
   {
+    "id": 1439,
+    "author": "Christopher Golden",
+    "title": "The House of Last Resort",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1439.webp",
+    "is_read": 0,
+    "cover_hash": "31cfbb1c109b263fe9f8af12416abc33d9088b365161ff4e41f67f51a6669ca7",
+    "cover_color": [
+      83,
+      52,
+      63
+    ]
+  },
+  {
     "id": 1041,
     "author": "Christopher Paolini",
     "title": "Brisingr",
@@ -3615,6 +3735,21 @@
     ]
   },
   {
+    "id": 1440,
+    "author": "Chuck Wendig",
+    "title": "The Book of Accidents: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1440.webp",
+    "is_read": 0,
+    "cover_hash": "e8fbe48f67c4cd5d6db6a19661160529243b05e61a38d7cc72361a9d9a9a59c6",
+    "cover_color": [
+      155,
+      165,
+      155
+    ]
+  },
+  {
     "id": 1265,
     "author": "Cixin Liu",
     "title": "Death's End",
@@ -3792,6 +3927,21 @@
       136,
       114,
       125
+    ]
+  },
+  {
+    "id": 1446,
+    "author": "Craig DiLouie",
+    "title": "Suffer the Children",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1446.webp",
+    "is_read": 0,
+    "cover_hash": "5d2c80be500391c8d50f71bf3068ea0a071ba27f7a92851f19fca08e5a09a3e6",
+    "cover_color": [
+      76,
+      40,
+      37
     ]
   },
   {
@@ -4095,6 +4245,21 @@
     ]
   },
   {
+    "id": 1442,
+    "author": "Darcy Coates",
+    "title": "The Haunting of Blackwood House",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1442.webp",
+    "is_read": 0,
+    "cover_hash": "c82802d2f37da2cbb8ab2f09a8e4ca80b7fc01ce596bab2ed82d963cfd78455d",
+    "cover_color": [
+      69,
+      78,
+      75
+    ]
+  },
+  {
     "id": 1161,
     "author": "Daria Lavelle",
     "title": "Aftertaste: A Novel",
@@ -4107,6 +4272,21 @@
       27,
       51,
       56
+    ]
+  },
+  {
+    "id": 1450,
+    "author": "Dathan Auerbach",
+    "title": "Penpal",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1450.webp",
+    "is_read": 0,
+    "cover_hash": "7ec3327f9db4060aa69d523e991ab3ee72f5aefbfb18c0a3abd5964c5be5536f",
+    "cover_color": [
+      183,
+      150,
+      116
     ]
   },
   {
@@ -9840,6 +10020,36 @@
     ]
   },
   {
+    "id": 1459,
+    "author": "Katherine Arden",
+    "title": "Dead Voices",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1459.webp",
+    "is_read": 0,
+    "cover_hash": "f5312c39398065baa0f413b6216873f74adfd42d9c40f61600e2a34bc1639f51",
+    "cover_color": [
+      65,
+      89,
+      127
+    ]
+  },
+  {
+    "id": 1449,
+    "author": "Katherine Arden",
+    "title": "Small Spaces",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1449.webp",
+    "is_read": 0,
+    "cover_hash": "7cb8f96ba9d97594fa39cc3b28d3b8657eaaf4c88a367ee506bf2ad4c2b680f9",
+    "cover_color": [
+      52,
+      39,
+      67
+    ]
+  },
+  {
     "id": 1391,
     "author": "Katherine Arden",
     "title": "The Bear and the Nightingale",
@@ -12210,6 +12420,21 @@
     ]
   },
   {
+    "id": 1432,
+    "author": "Marcus Kliewer",
+    "title": "We Used to Live Here",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1432.webp",
+    "is_read": 0,
+    "cover_hash": "53dc8884874794150bf50eaeb041eb9639cf7327ceb3257b97252b8f06de0055",
+    "cover_color": [
+      183,
+      182,
+      180
+    ]
+  },
+  {
     "id": 1407,
     "author": "Maria Gripe",
     "title": "Pappa Pellerins dotter",
@@ -12537,6 +12762,21 @@
       114,
       86,
       63
+    ]
+  },
+  {
+    "id": 1456,
+    "author": "Mark Z. Danielewski, Johnny Truant",
+    "title": "House of Leaves",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1456.webp",
+    "is_read": 0,
+    "cover_hash": "a660bdc8adcc34a82b57c97e019d245df79a1f37c2ae4c9f84816d43c0b44fd6",
+    "cover_color": [
+      10,
+      9,
+      9
     ]
   },
   {
@@ -13425,6 +13665,21 @@
     ]
   },
   {
+    "id": 1453,
+    "author": "Mira Grant",
+    "title": "Into the Drowning Deep",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1453.webp",
+    "is_read": 0,
+    "cover_hash": "20f03c61bd2ad50d631de67576bf4807bf24760b4a37a50f4724a5b2109053ba",
+    "cover_color": [
+      40,
+      27,
+      31
+    ]
+  },
+  {
     "id": 1018,
     "author": "Misaki Ichijo",
     "title": "Even If This Love Disappears Tonight",
@@ -13512,6 +13767,21 @@
       136,
       54,
       39
+    ]
+  },
+  {
+    "id": 1462,
+    "author": "Moore| Addison",
+    "title": "Cutie Pies and Deadly Lies: Murder in the Mix 1",
+    "series": "Murder in the Mix",
+    "series_index": 1.0,
+    "cover_path": "covers/1462.webp",
+    "is_read": 0,
+    "cover_hash": "8607456b179d60eb7f5a7ea12ee569c09e2bf954fd653708994f336285e03b28",
+    "cover_color": [
+      122,
+      139,
+      107
     ]
   },
   {
@@ -13905,6 +14175,21 @@
     ]
   },
   {
+    "id": 1452,
+    "author": "Neil Sharpson",
+    "title": "Knock Knock, Open Wide",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1452.webp",
+    "is_read": 0,
+    "cover_hash": "377e6099dc6e166d407a384fef00f7ae610424400151edf2f1841a83afd04e60",
+    "cover_color": [
+      134,
+      99,
+      95
+    ]
+  },
+  {
     "id": 1061,
     "author": "Nghi Vo",
     "title": "Into the Riverlands",
@@ -14007,6 +14292,21 @@
       154,
       125,
       126
+    ]
+  },
+  {
+    "id": 1435,
+    "author": "Nick Cutter",
+    "title": "The Troop",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1435.webp",
+    "is_read": 0,
+    "cover_hash": "c4a3ca9cc11334be03ab9ce93e6c6c69f3fe0140c7d852fc1aaf7740a6943f18",
+    "cover_color": [
+      143,
+      45,
+      30
     ]
   },
   {
@@ -14142,6 +14442,21 @@
       217,
       36,
       43
+    ]
+  },
+  {
+    "id": 1460,
+    "author": "Norman Partridge",
+    "title": "Dark Harvest",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1460.webp",
+    "is_read": 0,
+    "cover_hash": "17d830743f15bdd1213d194803367d77e6430966ba8a203f0a8c0e03da8982ab",
+    "cover_color": [
+      94,
+      72,
+      61
     ]
   },
   {
@@ -15360,6 +15675,21 @@
     ]
   },
   {
+    "id": 1458,
+    "author": "Richard Matheson",
+    "title": "Hell House",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1458.webp",
+    "is_read": 0,
+    "cover_hash": "d42b77ab32a352482699c9185e042b9e054dff6545c4c8961083099e962739c6",
+    "cover_color": [
+      94,
+      62,
+      44
+    ]
+  },
+  {
     "id": 1349,
     "author": "Richard Osman",
     "title": "The Bullet That Missed",
@@ -15612,6 +15942,21 @@
       75,
       80,
       103
+    ]
+  },
+  {
+    "id": 902,
+    "author": "Robert A. Monroe",
+    "title": "The Ultimate Journey",
+    "series": "The Journeys Trilogy",
+    "series_index": 3.0,
+    "cover_path": "covers/902.webp",
+    "is_read": 0,
+    "cover_hash": "033284689b297cb880064f9af575cc3e23b8fcb9246835f7e5a4ab9692eca7f3",
+    "cover_color": [
+      225,
+      143,
+      59
     ]
   },
   {
@@ -15912,21 +16257,6 @@
       42,
       144,
       159
-    ]
-  },
-  {
-    "id": 902,
-    "author": "Robert Monroe",
-    "title": "The Ultimate Journey",
-    "series": "The Journeys Trilogy",
-    "series_index": 3.0,
-    "cover_path": "covers/902.webp",
-    "is_read": 0,
-    "cover_hash": "033284689b297cb880064f9af575cc3e23b8fcb9246835f7e5a4ab9692eca7f3",
-    "cover_color": [
-      225,
-      143,
-      59
     ]
   },
   {
@@ -16245,6 +16575,21 @@
     ]
   },
   {
+    "id": 1461,
+    "author": "Ronald Malfi",
+    "title": "Come With Me",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1461.webp",
+    "is_read": 0,
+    "cover_hash": "a1cc44cc720ccfbfe29eb12a2e46fb138f391f23051168b55b834cb69484b19b",
+    "cover_color": [
+      32,
+      64,
+      69
+    ]
+  },
+  {
     "id": 884,
     "author": "Rosalia Aguilar Solace",
     "title": "The Great Library of Tomorrow",
@@ -16467,6 +16812,21 @@
       135,
       121,
       101
+    ]
+  },
+  {
+    "id": 1455,
+    "author": "Sager| Riley",
+    "title": "Home Before Dark",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1455.webp",
+    "is_read": 0,
+    "cover_hash": "cecfcd4ac803e526dffe8516bc5967b28f9655250edca20f216393afb94d5fd4",
+    "cover_color": [
+      49,
+      90,
+      31
     ]
   },
   {
@@ -16707,6 +17067,21 @@
       173,
       155,
       134
+    ]
+  },
+  {
+    "id": 1433,
+    "author": "Sara Tantlinger",
+    "title": "To Be Devoured",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1433.webp",
+    "is_read": 0,
+    "cover_hash": "d0c29b726a2bce085db2e00274a87eb1bab8535d2fe68aeb873207efccf59830",
+    "cover_color": [
+      140,
+      92,
+      91
     ]
   },
   {
@@ -17370,6 +17745,21 @@
     ]
   },
   {
+    "id": 1464,
+    "author": "Sheridan Le Fanu",
+    "title": "Carmilla",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1464.webp",
+    "is_read": 0,
+    "cover_hash": "1af48e52867f9a123695d27dbec114c4e87b87390d3ff69061ef1e5f5da79c4f",
+    "cover_color": [
+      71,
+      46,
+      33
+    ]
+  },
+  {
     "id": 897,
     "author": "Shunmyo Masuno",
     "title": "Hogejaku",
@@ -17412,6 +17802,21 @@
       76,
       49,
       33
+    ]
+  },
+  {
+    "id": 1441,
+    "author": "Silvia Moreno-Garcia",
+    "title": "The Bewitching",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1441.webp",
+    "is_read": 0,
+    "cover_hash": "cc7064ff23e29367e23a8607692afb2a21beda9ae966a95f9c178e450b8f5110",
+    "cover_color": [
+      47,
+      81,
+      53
     ]
   },
   {
@@ -17865,6 +18270,36 @@
     ]
   },
   {
+    "id": 1436,
+    "author": "Stephen King",
+    "title": "Billy Summers (US Edition)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1436.webp",
+    "is_read": 0,
+    "cover_hash": "89d4f590bb6442f8448be330ba28e6218e5c90c1750fa04b6ad155fee41f3591",
+    "cover_color": [
+      103,
+      76,
+      62
+    ]
+  },
+  {
+    "id": 1448,
+    "author": "Stephen King",
+    "title": "Cycle of the Werewolf",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1448.webp",
+    "is_read": 0,
+    "cover_hash": "d26313764391e7d6705de6e2a4953c7d68113a45be8a98df6db71ecea85d531e",
+    "cover_color": [
+      63,
+      49,
+      51
+    ]
+  },
+  {
     "id": 1429,
     "author": "Stephen King",
     "title": "De Shining",
@@ -18072,6 +18507,21 @@
       111,
       117,
       65
+    ]
+  },
+  {
+    "id": 1431,
+    "author": "Steven L. Peck",
+    "title": "A Short Stay in Hell",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1431.webp",
+    "is_read": 0,
+    "cover_hash": "d56a43b0ba414c6dd5d30107913818d965951363b43232395e9934cf8f3774d9",
+    "cover_color": [
+      160,
+      144,
+      125
     ]
   },
   {
@@ -18537,6 +18987,21 @@
       42,
       43,
       38
+    ]
+  },
+  {
+    "id": 1445,
+    "author": "T. Kingfisher",
+    "title": "The Hollow Places",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1445.webp",
+    "is_read": 0,
+    "cover_hash": "67547edb328eba7a4bd5738de9d91bedb4d5454a0488e895d93f6758f23274b0",
+    "cover_color": [
+      108,
+      114,
+      120
     ]
   },
   {
@@ -19950,6 +20415,21 @@
     ]
   },
   {
+    "id": 1457,
+    "author": "Thomas Olde Heuvelt",
+    "title": "Hex",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1457.webp",
+    "is_read": 0,
+    "cover_hash": "492538c3f1cd67fb38450105c17b46cc22581868e64eff98bbc9a24e6abca488",
+    "cover_color": [
+      124,
+      140,
+      146
+    ]
+  },
+  {
     "id": 1140,
     "author": "Tia Williams",
     "title": "Seven Days in June",
@@ -20355,6 +20835,21 @@
     ]
   },
   {
+    "id": 1443,
+    "author": "Victor LaValle",
+    "title": "The Ballad of Black Tom",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1443.webp",
+    "is_read": 0,
+    "cover_hash": "7cab20a883e3e73e4e0686c026ecedcc051216d2d59a72e87cfda16474f16df3",
+    "cover_color": [
+      83,
+      65,
+      67
+    ]
+  },
+  {
     "id": 226,
     "author": "Victoria Schwab",
     "title": "Bridge of Souls (City of Ghosts #3)",
@@ -20457,6 +20952,21 @@
       41,
       67,
       64
+    ]
+  },
+  {
+    "id": 1444,
+    "author": "Ware| Ruth",
+    "title": "Ware, Ruth - The Death of Mrs. Westaway",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1444.webp",
+    "is_read": 0,
+    "cover_hash": "0983da478cc4c8f0af17ae4f3375ecdd0e6d65041a5110c7c9b9eec3d0d55e31",
+    "cover_color": [
+      122,
+      122,
+      122
     ]
   },
   {

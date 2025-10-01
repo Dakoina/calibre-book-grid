@@ -116,7 +116,7 @@ print(f"\n📦 Processing {len(books)} covers (max width 400px)...")
 for book in tqdm(books, desc="Updating/resizing covers", unit="book"):
     original_cover = book["cover_path"]
     book_id = book["id"]
-    new_cover_path = os.path.join(output_cover_folder, f"{book_id}.jpg")
+    new_cover_path = os.path.join(output_cover_folder, f"{book_id}.webp")
 
     # Determine current source hash (if source exists)
     current_hash = None
@@ -142,8 +142,8 @@ for book in tqdm(books, desc="Updating/resizing covers", unit="book"):
                     ratio = 400 / img.width
                     new_size = (400, int(img.height * ratio))
                     img = img.resize(new_size, Image.LANCZOS)
-                img.save(new_cover_path, "JPEG", quality=85)
-                book["cover_path"] = f"covers/{book_id}.jpg"
+                img.save(new_cover_path, "WEBP", quality=80)
+                book["cover_path"] = f"covers/{book_id}.webp"
                 if current_hash:
                     book["cover_hash"] = current_hash
                 copied += 1

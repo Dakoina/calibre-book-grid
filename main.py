@@ -145,13 +145,16 @@ def fetch_books_from_db(db_path):
                           series.name                      AS series,
                           books.series_index,
                           books.path                       AS book_folder,
-                          COALESCE(custom_column_1.value, 0) AS is_read
+                          COALESCE(custom_column_1.value, 0) AS is_read,
+                          languages.lang_code              AS language
                    FROM books
                             LEFT JOIN books_authors_link ON books.id = books_authors_link.book
                             LEFT JOIN authors ON books_authors_link.author = authors.id
                             LEFT JOIN books_series_link ON books.id = books_series_link.book
                             LEFT JOIN series ON books_series_link.series = series.id
                             LEFT JOIN custom_column_1 ON books.id = custom_column_1.book
+                            LEFT JOIN books_languages_link ON books.id = books_languages_link.book
+                            LEFT JOIN languages ON books_languages_link.lang_code = languages.id
                    GROUP BY books.id
                    ORDER BY authors, series, books.title
                    """)
@@ -165,6 +168,7 @@ def fetch_books_from_db(db_path):
         series_index = row[4] if row[4] is not None else ''
         book_folder = row[5]
         is_read = row[6]
+        language = row[7] if row[7] else ''
 
         # Full path to cover
         library_path = os.path.dirname(db_path)
@@ -180,7 +184,8 @@ def fetch_books_from_db(db_path):
             "series": series,
             "series_index": series_index,
             "cover_path": cover_path,
-            "is_read": is_read
+            "is_read": is_read,
+            "language": language
         })
 
     conn.close()

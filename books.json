@@ -176,6 +176,22 @@
     ]
   },
   {
+    "id": 1462,
+    "author": "Addison Moore",
+    "title": "Cutie Pies and Deadly Lies: Murder in the Mix 1",
+    "series": "Murder in the Mix",
+    "series_index": 1.0,
+    "cover_path": "covers/1462.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "8607456b179d60eb7f5a7ea12ee569c09e2bf954fd653708994f336285e03b28",
+    "cover_color": [
+      122,
+      139,
+      107
+    ]
+  },
+  {
     "id": 739,
     "author": "Adolfo Bioy Casares, Ruth L. C. Simms",
     "title": "The Invention of Morel",
@@ -6208,6 +6224,22 @@
     ]
   },
   {
+    "id": 1469,
+    "author": "Evie Woods",
+    "title": "The Lost Bookshop",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1469.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "f1ccc1a46144de7ca41c4a22815de26d0ec4d4a31f0920ac21c43d2a7911239c",
+    "cover_color": [
+      41,
+      66,
+      60
+    ]
+  },
+  {
     "id": 1397,
     "author": "F.T. Lukens",
     "title": "So This Is Ever After",
@@ -6496,6 +6528,38 @@
     ]
   },
   {
+    "id": 1477,
+    "author": "Freida McFadden",
+    "title": "De perfecte zoon",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1477.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "abe23fcac4869a4a7948742992c26a2dcc1d2c1039558448b049a3be03181851",
+    "cover_color": [
+      50,
+      74,
+      28
+    ]
+  },
+  {
+    "id": 1476,
+    "author": "Freida McFadden",
+    "title": "De vrouw op zolder",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1476.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "c7951ee7847a37036e49efde983d4ca821165a7f85fa7e4b9f2e00da2f248308",
+    "cover_color": [
+      64,
+      56,
+      55
+    ]
+  },
+  {
     "id": 906,
     "author": "Freida McFadden",
     "title": "Lieg nooit",
@@ -6573,6 +6637,22 @@
       159,
       147,
       159
+    ]
+  },
+  {
+    "id": 1468,
+    "author": "Freida McFadden",
+    "title": "The Perfect Son",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1468.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "ce38dab8ab02676586a195ea402f4b9f6e273e555aff90cfc2fa1ceba55bb0b7",
+    "cover_color": [
+      58,
+      75,
+      88
     ]
   },
   {
@@ -11168,22 +11248,6 @@
     ]
   },
   {
-    "id": 1420,
-    "author": "King| Stephen",
-    "title": "22 11 1963",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1420.webp",
-    "is_read": 0,
-    "language": "nld",
-    "cover_hash": "90c09a8ef399c33a1b5f038799819827ccd6db6a1c52b3f73651fbfd92ad865f",
-    "cover_color": [
-      90,
-      87,
-      86
-    ]
-  },
-  {
     "id": 158,
     "author": "Kristen Ciccarelli",
     "title": "Heartless Hunter",
@@ -12797,6 +12861,22 @@
       230,
       220,
       215
+    ]
+  },
+  {
+    "id": 1470,
+    "author": "Lucy Jane Wood",
+    "title": "Rewitched",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1470.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "3ec49a161974225d10adc58d74f41fc416e2d5e8429cfc05a048d15184ca384d",
+    "cover_color": [
+      166,
+      122,
+      129
     ]
   },
   {
@@ -14685,22 +14765,6 @@
       136,
       54,
       39
-    ]
-  },
-  {
-    "id": 1462,
-    "author": "Moore| Addison",
-    "title": "Cutie Pies and Deadly Lies: Murder in the Mix 1",
-    "series": "Murder in the Mix",
-    "series_index": 1.0,
-    "cover_path": "covers/1462.webp",
-    "is_read": 0,
-    "language": "eng",
-    "cover_hash": "8607456b179d60eb7f5a7ea12ee569c09e2bf954fd653708994f336285e03b28",
-    "cover_color": [
-      122,
-      139,
-      107
     ]
   },
   {
@@ -16960,6 +17024,22 @@
     ]
   },
   {
+    "id": 1455,
+    "author": "Riley Sager",
+    "title": "Home Before Dark",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1455.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "cecfcd4ac803e526dffe8516bc5967b28f9655250edca20f216393afb94d5fd4",
+    "cover_color": [
+      49,
+      90,
+      31
+    ]
+  },
+  {
     "id": 1203,
     "author": "Riley Sager",
     "title": "The Only One Left: A Novel",
@@ -17760,6 +17840,22 @@
     ]
   },
   {
+    "id": 1444,
+    "author": "Ruth Ware",
+    "title": "The Death of Mrs. Westaway",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1444.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "0983da478cc4c8f0af17ae4f3375ecdd0e6d65041a5110c7c9b9eec3d0d55e31",
+    "cover_color": [
+      122,
+      122,
+      122
+    ]
+  },
+  {
     "id": 693,
     "author": "Ryan Cahill",
     "title": "Of Blood and Fire",
@@ -17933,22 +18029,6 @@
       135,
       121,
       101
-    ]
-  },
-  {
-    "id": 1455,
-    "author": "Sager| Riley",
-    "title": "Home Before Dark",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1455.webp",
-    "is_read": 0,
-    "language": "eng",
-    "cover_hash": "cecfcd4ac803e526dffe8516bc5967b28f9655250edca20f216393afb94d5fd4",
-    "cover_color": [
-      49,
-      90,
-      31
     ]
   },
   {
@@ -19200,6 +19280,38 @@
     ]
   },
   {
+    "id": 1465,
+    "author": "Soraya Lane",
+    "title": "De Argentijnse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 6.0,
+    "cover_path": "covers/1465.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "dbad7f69c49b7ca6dca81d87fb6ba8f759e489015f3e2d2c30d4263613f78cb8",
+    "cover_color": [
+      187,
+      164,
+      139
+    ]
+  },
+  {
+    "id": 1471,
+    "author": "Soraya Lane",
+    "title": "De Cubaanse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 2.0,
+    "cover_path": "covers/1471.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "7881495829234611d9c82ff5c60550ac0827bcf9a9c525d4ff242b17fb478013",
+    "cover_color": [
+      208,
+      166,
+      146
+    ]
+  },
+  {
     "id": 915,
     "author": "Soraya Lane",
     "title": "De Franse dochter",
@@ -19234,7 +19346,7 @@
   {
     "id": 896,
     "author": "Soraya Lane",
-    "title": "Soraya Lane_De Verloren Dochters 01_2022 - De Italiaanse Dochter",
+    "title": "De Italiaanse Dochter",
     "series": "De Verloren Dochters",
     "series_index": 1.0,
     "cover_path": "covers/896.webp",
@@ -19245,6 +19357,22 @@
       200,
       164,
       132
+    ]
+  },
+  {
+    "id": 1475,
+    "author": "Soraya Lane",
+    "title": "De Zwitserse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 4.0,
+    "cover_path": "covers/1475.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "03cc25042d839e25fe5e2d76f97cfe4caf4d66b33ad81f17101c8c06a1e5028b",
+    "cover_color": [
+      208,
+      167,
+      152
     ]
   },
   {
@@ -19488,6 +19616,22 @@
     ]
   },
   {
+    "id": 1420,
+    "author": "Stephen King",
+    "title": "22 11 1963",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1420.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "90c09a8ef399c33a1b5f038799819827ccd6db6a1c52b3f73651fbfd92ad865f",
+    "cover_color": [
+      90,
+      87,
+      86
+    ]
+  },
+  {
     "id": 1436,
     "author": "Stephen King",
     "title": "Billy Summers (US Edition)",
@@ -19552,6 +19696,22 @@
     ]
   },
   {
+    "id": 1482,
+    "author": "Stephen King",
+    "title": "Fairy Tale",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1482.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "b22f9b5bee022d4f6c6ea4d5d2c8f13057ad583d545b56b74bff4f84fab6819d",
+    "cover_color": [
+      49,
+      46,
+      64
+    ]
+  },
+  {
     "id": 1427,
     "author": "Stephen King",
     "title": "Het (It)",
@@ -19613,6 +19773,134 @@
       211,
       212,
       169
+    ]
+  },
+  {
+    "id": 1480,
+    "author": "Stephen King",
+    "title": "De Donkere Toren",
+    "series": "De Donkere Toren",
+    "series_index": 7.0,
+    "cover_path": "covers/1480.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "bb61180c9e0fd966d3c9b2b99385899df86012d5d426730b6e39e72630481650",
+    "cover_color": [
+      103,
+      52,
+      61
+    ]
+  },
+  {
+    "id": 1479,
+    "author": "Stephen King",
+    "title": "De Scherpschutter",
+    "series": "De Donkere Toren",
+    "series_index": 1.0,
+    "cover_path": "covers/1479.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "d3e6db3c44b3a336938863d3a7e167b7ac98c61d993c5797346e614da0c5de62",
+    "cover_color": [
+      73,
+      78,
+      79
+    ]
+  },
+  {
+    "id": 1478,
+    "author": "Stephen King",
+    "title": "De wind door het sleutelgat",
+    "series": "De Donkere Toren",
+    "series_index": 4.5,
+    "cover_path": "covers/1478.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "7b39f8a034d7feda251444ac344d65431d1a15620dee2e6d546bf982d676c992",
+    "cover_color": [
+      117,
+      92,
+      49
+    ]
+  },
+  {
+    "id": 1474,
+    "author": "Stephen King",
+    "title": "Een lied van Susannah",
+    "series": "De Donkere Toren",
+    "series_index": 6.0,
+    "cover_path": "covers/1474.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "65166dcd6a863d2af618bbc0d99670705d55ce111270c2b5a7db7b3ff7837f77",
+    "cover_color": [
+      71,
+      79,
+      59
+    ]
+  },
+  {
+    "id": 1473,
+    "author": "Stephen King",
+    "title": "Het Teken Van Drie",
+    "series": "De Donkere Toren",
+    "series_index": 2.0,
+    "cover_path": "covers/1473.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "39f295c2dd42d0f06fe30a7412c9b3a402e57c9fc9e06bd267321ebef847bc0f",
+    "cover_color": [
+      104,
+      57,
+      43
+    ]
+  },
+  {
+    "id": 1481,
+    "author": "Stephen King",
+    "title": "Het Verloren Rijk",
+    "series": "De Donkere Toren",
+    "series_index": 3.0,
+    "cover_path": "covers/1481.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "4d4b0d6aab39651f414a072d49978144986f4872066347034f07034dcdd0b50a",
+    "cover_color": [
+      106,
+      53,
+      75
+    ]
+  },
+  {
+    "id": 1467,
+    "author": "Stephen King",
+    "title": "Tovenaarsglas",
+    "series": "De Donkere Toren",
+    "series_index": 4.0,
+    "cover_path": "covers/1467.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "d80adbce36432d40be0d775da25f7e2b942f4559fe88530e442e24d4ddb7352f",
+    "cover_color": [
+      74,
+      68,
+      96
+    ]
+  },
+  {
+    "id": 1466,
+    "author": "Stephen King",
+    "title": "Wolven van de Calla",
+    "series": "De Donkere Toren",
+    "series_index": 5.0,
+    "cover_path": "covers/1466.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "9f124d16b9b6d31e1ffb75891e79f130a5b470ef39819d9ee4cb68a92ce8d099",
+    "cover_color": [
+      67,
+      80,
+      79
     ]
   },
   {
@@ -22352,19 +22640,19 @@
     ]
   },
   {
-    "id": 1444,
-    "author": "Ware| Ruth",
-    "title": "Ware, Ruth - The Death of Mrs. Westaway",
+    "id": 1472,
+    "author": "Virginie Grimaldi",
+    "title": "Onder de sterren",
     "series": "",
     "series_index": 1.0,
-    "cover_path": "covers/1444.webp",
+    "cover_path": "covers/1472.webp",
     "is_read": 0,
-    "language": "eng",
-    "cover_hash": "0983da478cc4c8f0af17ae4f3375ecdd0e6d65041a5110c7c9b9eec3d0d55e31",
+    "language": "nld",
+    "cover_hash": "61eff75eef9175bec2098b831081bf075368c13feb2f8362414ab1239934eedf",
     "cover_color": [
-      122,
-      122,
-      122
+      73,
+      112,
+      119
     ]
   },
   {

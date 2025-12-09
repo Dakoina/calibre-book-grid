@@ -1,0 +1,154 @@
+[
+  {
+    "original": {
+      "title": "Dune",
+      "author": "Frank Herbert"
+    },
+    "found": {
+      "title": "Frank Herbert's Dune Saga Collection: Books 1 - 6",
+      "authors": [
+        "Frank Herbert"
+      ],
+      "categories": [
+        "Fiction"
+      ],
+      "main_category": null,
+      "description": "Perfect for longtime fans and new readers alike—this eBook collection includes all six original novels in the Dune Saga written by Frank Herbert. DUNE IS NOW A MAJOR MOTION PICTURE directed by Denis V",
+      "published_date": "2020-06-02",
+      "isbn": "9780593333020"
+    }
+  },
+  {
+    "original": {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen"
+    },
+    "found": {
+      "title": "Pride and Prejudice",
+      "authors": [
+        "Jane Austen"
+      ],
+      "categories": [
+        "Courtship"
+      ],
+      "main_category": null,
+      "description": "Austen’s most celebrated novel tells the story of Elizabeth Bennet, a bright, lively young woman with four sisters, and a mother determined to marry them to wealthy men. At a party near the Bennets’ h",
+      "published_date": "1918",
+      "isbn": null
+    }
+  },
+  {
+    "original": {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    "found": {
+      "title": "The Hobbit",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "categories": [
+        "Fiction"
+      ],
+      "main_category": null,
+      "description": "This is the story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected... ‘A flawless masterpiece’ The Times",
+      "published_date": "2009-04-20",
+      "isbn": "9780007322602"
+    }
+  },
+  {
+    "original": {
+      "title": "1984",
+      "author": "George Orwell"
+    },
+    "found": {
+      "title": "1984",
+      "authors": [
+        "George Orwell"
+      ],
+      "categories": [
+        "Fiction"
+      ],
+      "main_category": null,
+      "description": "\"Big Brother is Watching You.\" In a world where truth is dictated by the Party, freedom is slavery, and war is peace, Winston Smith dares to think for himself. But in the totalitarian state of Oceania",
+      "published_date": "2024-07-01",
+      "isbn": "9781998382934"
+    }
+  },
+  {
+    "original": {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald"
+    },
+    "found": {
+      "title": "F. Scott Fitzgerald: The Great Gatsby",
+      "authors": [
+        "F. Scott Fitzgerald"
+      ],
+      "categories": [
+        "Fiction"
+      ],
+      "main_category": null,
+      "description": "Classical portrayal of love and violence during the Twenties.",
+      "published_date": "1991-08-30",
+      "isbn": "0521402301"
+    }
+  },
+  {
+    "original": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling"
+    },
+    "found": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "categories": [
+        "Children's stories"
+      ],
+      "main_category": null,
+      "description": "\"Harry Potter thinks he is an ordinary boy. He lives with Uncle Vernon, Aunt Petunia and his cousin, Dudley, who make him sleep in a cupboard under the stairs. Then Harry starts receiving mysterious l",
+      "published_date": "2010-01-01",
+      "isbn": "1408810549"
+    }
+  },
+  {
+    "original": {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee"
+    },
+    "found": {
+      "title": "To Kill a Mockingbird",
+      "authors": [
+        "Harper Lee"
+      ],
+      "categories": [
+        "Alabama"
+      ],
+      "main_category": null,
+      "description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it, in a mass market edition.",
+      "published_date": "1982",
+      "isbn": "0329001183"
+    }
+  },
+  {
+    "original": {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins"
+    },
+    "found": {
+      "title": "The Hunger Games (Hunger Games, Book One)",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "categories": [
+        "Young Adult Fiction"
+      ],
+      "main_category": null,
+      "description": "This Special Edition of The Hunger Games includes the most extensive interview Suzanne Collins has given since the publication of The Hunger Games; an absorbing behind-the-scenes look at the creation ",
+      "published_date": "2009-09-01",
+      "isbn": "9780545229937"
+    }
+  }
+]
